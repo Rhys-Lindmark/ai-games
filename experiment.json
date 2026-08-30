@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "slug": "games",
+  "name": "AI Games",
+  "stage": "prototype",
+  "pitch": "Fast daily games for people who would rather rotate timelines, quantities, and systems than rearrange words.",
+  "owner": "Rhys Lindmark",
+  "public_url": "https://ai.rhyslindmark.com/games",
+  "repository_url": "https://github.com/Rhys-Lindmark/ai-games",
+  "artifact_url": "https://ai.rhyslindmark.com/games",
+  "north_star_metric": {
+    "name": "weekly_completed_games",
+    "current": null,
+    "target": 25,
+    "unit": "completions"
+  },
+  "evidence": [
+    {
+      "kind": "shipped_prototype",
+      "date": "2026-08-30",
+      "url": "https://ai.rhyslindmark.com/games",
+      "note": "Public playable history-timeline prototype; question-set verification remains incomplete."
+    }
+  ],
+  "next_review_date": "2026-09-06",
+  "updated_at": "2026-08-30"
+}
