@@ -20,6 +20,12 @@
       "date": "2026-08-30",
       "url": "https://ai.rhyslindmark.com/games",
       "note": "Public playable history-timeline prototype; question-set verification remains incomplete."
+    },
+    {
+      "kind": "shipped_prototype",
+      "date": "2026-08-30",
+      "url": "https://ai.rhyslindmark.com/games/how-big-bio",
+      "note": "Five-question sourced Bio Numbers order-of-magnitude game with logarithmic scoring and ambiguity notes."
     }
   ],
   "next_review_date": "2026-09-06",
