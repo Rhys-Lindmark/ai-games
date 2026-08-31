@@ -1,0 +1,240 @@
+{
+  "schema_version": "ai-games.history-source-audit/0.1.0",
+  "verified_at": "2026-08-31",
+  "question_count": 43,
+  "unique_url_count": 38,
+  "states": {
+    "access_blocked": 22,
+    "reachable": 16
+  },
+  "records": [
+    {
+      "url": "https://82nd-and-fifth.metmuseum.org/toah/ht/04/cam.html",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://82nd-and-fifth.metmuseum.org/toah/ht/04/cam.html"
+    },
+    {
+      "url": "https://82nd-and-fifth.metmuseum.org/toah/ht/05/caa.html",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://82nd-and-fifth.metmuseum.org/toah/ht/05/caa.html"
+    },
+    {
+      "url": "https://82nd-and-fifth.metmuseum.org/toah/ht/05/cam.html",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://82nd-and-fifth.metmuseum.org/toah/ht/05/cam.html"
+    },
+    {
+      "url": "https://82nd-and-fifth.metmuseum.org/toah/ht/06/nc.html",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://82nd-and-fifth.metmuseum.org/toah/ht/06/nc.html"
+    },
+    {
+      "url": "https://blog.sciencemuseum.org.uk/james-watt-and-the-separate-condenser/",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://blog.sciencemuseum.org.uk/james-watt-and-the-separate-condenser/"
+    },
+    {
+      "url": "https://blog.sciencemuseum.org.uk/revealing-the-real-cooke-and-wheatstone-telegraph-dial/",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://blog.sciencemuseum.org.uk/revealing-the-real-cooke-and-wheatstone-telegraph-dial/"
+    },
+    {
+      "url": "https://collections.louvre.fr/en/ark:/53355/cl010174436",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://collections.louvre.fr/en/ark:/53355/cl010174436"
+    },
+    {
+      "url": "https://guides.loc.gov/gutenberg/resources",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://guides.loc.gov/gutenberg/resources"
+    },
+    {
+      "url": "https://guides.loc.gov/haiti-reimagined",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://guides.loc.gov/haiti-reimagined"
+    },
+    {
+      "url": "https://library.olympics.com/digitalCollection/DigitalCollectionAttachmentDownloadHandler.ashx?documentId=2435425&parentDocumentId=2435424&skipCopyright=true&skipWatermark=true",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://library.olympics.com/digitalCollection/DigitalCollectionAttachmentDownloadHandler.ashx?documentId=2435425&parentDocumentId=2435424&skipCopyright=true&skipWatermark=true"
+    },
+    {
+      "url": "https://resources.metmuseum.org/resources/metpublications/pdf/The_Year_One_Art_of_the_Ancient_World_East_and_West.pdf",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://resources.metmuseum.org/resources/metpublications/pdf/The_Year_One_Art_of_the_Ancient_World_East_and_West.pdf"
+    },
+    {
+      "url": "https://smarthistory.org/gupta-period/",
+      "status": 403,
+      "state": "access_blocked",
+      "final_url": "https://smarthistory.org/gupta-period/"
+    },
+    {
+      "url": "https://www.archives.gov/exhibits/eyewitness/html.php?section=1",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.archives.gov/exhibits/eyewitness/html.php?section=1"
+    },
+    {
+      "url": "https://www.britannica.com/event/Battle-of-Marathon",
+      "status": 403,
+      "state": "access_blocked",
+      "final_url": "https://www.britannica.com/event/Battle-of-Marathon"
+    },
+    {
+      "url": "https://www.britannica.com/technology/spinning-jenny",
+      "status": 403,
+      "state": "access_blocked",
+      "final_url": "https://www.britannica.com/technology/spinning-jenny"
+    },
+    {
+      "url": "https://www.bundestag.de/resource/blob/480634/exhibition_dome.pdf",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.bundestag.de/resource/blob/480634/exhibition_dome.pdf"
+    },
+    {
+      "url": "https://www.loc.gov/exhibits/exploring-the-early-americas/columbus-and-the-taino.html",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.loc.gov/exhibits/exploring-the-early-americas/columbus-and-the-taino.html"
+    },
+    {
+      "url": "https://www.metmuseum.org/-/media/files/learn/for-educators/publications-for-educators/renaissance.pdf",
+      "status": 429,
+      "state": "access_blocked",
+      "final_url": "https://www.metmuseum.org/-/media/files/learn/for-educators/publications-for-educators/renaissance.pdf"
+    },
+    {
+      "url": "https://www.metmuseum.org/es/essays/olmec-art",
+      "status": 429,
+      "state": "access_blocked",
+      "final_url": "https://www.metmuseum.org/es/essays/olmec-art"
+    },
+    {
+      "url": "https://www.metmuseum.org/essays/art-of-the-hellenistic-age-and-the-hellenistic-tradition",
+      "status": 429,
+      "state": "access_blocked",
+      "final_url": "https://www.metmuseum.org/essays/art-of-the-hellenistic-age-and-the-hellenistic-tradition"
+    },
+    {
+      "url": "https://www.metmuseum.org/essays/carolingian-art",
+      "status": 429,
+      "state": "access_blocked",
+      "final_url": "https://www.metmuseum.org/essays/carolingian-art"
+    },
+    {
+      "url": "https://www.metmuseum.org/essays/the-birth-of-islam",
+      "status": 429,
+      "state": "access_blocked",
+      "final_url": "https://www.metmuseum.org/essays/the-birth-of-islam"
+    },
+    {
+      "url": "https://www.metmuseum.org/essays/the-empires-of-the-western-sudan",
+      "status": 429,
+      "state": "access_blocked",
+      "final_url": "https://www.metmuseum.org/essays/the-empires-of-the-western-sudan"
+    },
+    {
+      "url": "https://www.metmuseum.org/essays/the-legacy-of-genghis-khan",
+      "status": 429,
+      "state": "access_blocked",
+      "final_url": "https://www.metmuseum.org/essays/the-legacy-of-genghis-khan"
+    },
+    {
+      "url": "https://www.metmuseum.org/essays/the-qing-dynasty-1644-1911-painting",
+      "status": 429,
+      "state": "access_blocked",
+      "final_url": "https://www.metmuseum.org/essays/the-qing-dynasty-1644-1911-painting"
+    },
+    {
+      "url": "https://www.metmuseum.org/essays/the-roman-empire-27-b-c-393-a-d",
+      "status": 429,
+      "state": "access_blocked",
+      "final_url": "https://www.metmuseum.org/essays/the-roman-empire-27-b-c-393-a-d"
+    },
+    {
+      "url": "https://www.metmuseum.org/exhibitions/listings/2010/yuan-revolution",
+      "status": 429,
+      "state": "access_blocked",
+      "final_url": "https://www.metmuseum.org/exhibitions/listings/2010/yuan-revolution"
+    },
+    {
+      "url": "https://www.metmuseum.org/exhibitions/listings/2017/age-of-empires/exhibition-galleries",
+      "status": 429,
+      "state": "access_blocked",
+      "final_url": "https://www.metmuseum.org/exhibitions/listings/2017/age-of-empires/exhibition-galleries"
+    },
+    {
+      "url": "https://www.metmuseum.org/ja/essays/foundations-of-aksumite-civilization-and-its-christian-legacy-1st-7th-century",
+      "status": 429,
+      "state": "access_blocked",
+      "final_url": "https://www.metmuseum.org/ja/essays/foundations-of-aksumite-civilization-and-its-christian-legacy-1st-7th-century"
+    },
+    {
+      "url": "https://www.metmuseum.org/ja/essays/the-achaemenid-persian-empire-550-330-b-c",
+      "status": 429,
+      "state": "access_blocked",
+      "final_url": "https://www.metmuseum.org/ja/essays/the-achaemenid-persian-empire-550-330-b-c"
+    },
+    {
+      "url": "https://www.metmuseum.org/met-publications/roman-art-a-resource-for-educators",
+      "status": 429,
+      "state": "access_blocked",
+      "final_url": "https://www.metmuseum.org/met-publications/roman-art-a-resource-for-educators"
+    },
+    {
+      "url": "https://www.metmuseum.org/toah/hd/crus/hd_crus.htm",
+      "status": 429,
+      "state": "access_blocked",
+      "final_url": "https://www.metmuseum.org/toah/hd/crus/hd_crus.htm"
+    },
+    {
+      "url": "https://www.metmuseum.org/toah/ht/05/eust.html",
+      "status": 429,
+      "state": "access_blocked",
+      "final_url": "https://www.metmuseum.org/toah/ht/05/eust.html"
+    },
+    {
+      "url": "https://www.nationalarchives.gov.uk/education/resources/indian-independence/",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.nationalarchives.gov.uk/education/resources/indian-independence/"
+    },
+    {
+      "url": "https://www.ndl.go.jp/portrait/e/pickup/012/",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.ndl.go.jp/portrait/e/pickup/012/"
+    },
+    {
+      "url": "https://www.parliament.uk/about/living-heritage/building/palace/estatehistory/the-middle-ages/palace-normans/",
+      "status": 403,
+      "state": "access_blocked",
+      "final_url": "https://www.parliament.uk/about/living-heritage/building/palace/estatehistory/the-middle-ages/palace-normans/"
+    },
+    {
+      "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/originsofparliament/birthofparliament/overview/magnacarta/",
+      "status": 403,
+      "state": "access_blocked",
+      "final_url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/originsofparliament/birthofparliament/overview/magnacarta/"
+    },
+    {
+      "url": "https://www.si.edu/spotlight/ancient-egypt/pyramid",
+      "status": 403,
+      "state": "access_blocked",
+      "final_url": "https://www.si.edu/spotlight/ancient-egypt/pyramid"
+    }
+  ]
+}
