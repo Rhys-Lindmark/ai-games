@@ -1,13 +1,20 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { dailyHistoryDeck, dailyHistoryQuestionCount, historyLevel, historyPoints, historyQuestions, historyQuestionTarget } from './history.ts';
+import { dailyHistoryDeck, dailyHistoryQuestionCount, formatHistoryYear, historyLevel, historyPoints, historyQuestions, historyQuestionTarget } from './history.ts';
 
 void test('history library begins a sourced 1,000-question curriculum', () => {
   assert.equal(historyQuestionTarget, 1000);
-  assert.equal(historyQuestions.length, 13);
+  assert.equal(historyQuestions.length, 23);
   assert.equal(new Set(historyQuestions.map((question) => question.id)).size, historyQuestions.length);
   assert.ok(historyQuestions.every((question) => question.year >= question.min && question.year <= question.max));
   assert.ok(historyQuestions.every((question) => question.sourceUrl.startsWith('https://') && question.verifiedAt === '2026-08-31'));
+});
+
+void test('ancient dates are shown as human BCE/CE labels', () => {
+  assert.equal(formatHistoryYear(-2780), '2,780 BCE');
+  assert.equal(formatHistoryYear(-27), '27 BCE');
+  assert.equal(formatHistoryYear(79), '79 CE');
+  assert.equal(formatHistoryYear(0), 'BCE / CE');
 });
 
 void test('daily round is ten stable unique questions and rotates by day', () => {
