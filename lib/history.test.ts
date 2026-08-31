@@ -6,8 +6,13 @@ void test('history library begins a sourced 1,000-question curriculum', () => {
   assert.equal(historyQuestionTarget, 1000);
   assert.equal(historyQuestions.length, 43);
   assert.equal(new Set(historyQuestions.map((question) => question.id)).size, historyQuestions.length);
+  assert.equal(new Set(historyQuestions.map((question) => question.prompt)).size, historyQuestions.length);
   assert.ok(historyQuestions.every((question) => question.year >= question.min && question.year <= question.max));
+  assert.ok(historyQuestions.every((question) => Number.isInteger(question.year) && question.prompt.endsWith('?') && question.detail.length >= 80));
   assert.ok(historyQuestions.every((question) => question.sourceUrl.startsWith('https://') && question.verifiedAt === '2026-08-31'));
+  for (const difficulty of ['core', 'survey', 'specialist']) {
+    assert.ok(historyQuestions.filter((question) => question.difficulty === difficulty).length >= 5, `${difficulty} needs meaningful representation`);
+  }
 });
 
 void test('ancient dates are shown as human BCE/CE labels', () => {
