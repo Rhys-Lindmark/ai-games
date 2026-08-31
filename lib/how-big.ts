@@ -26,6 +26,23 @@ export const bioNumbersDeck: MagnitudeQuestion[] = [
 export const magnitudeScore = (guessExponent: number, value: number) => Math.round(1000 * 0.5 ** Math.abs(guessExponent - Math.log10(value)));
 export const magnitudeFactor = (guessExponent: number, value: number) => 10 ** Math.abs(guessExponent - Math.log10(value));
 
+export function dailyBioDeck(deck: MagnitudeQuestion[], dayKey: string, count = 5) {
+  let seed = [...dayKey].reduce((value, char) => Math.imul(value ^ char.charCodeAt(0), 16777619) >>> 0, 2166136261);
+  const shuffled = [...deck];
+  for (let index = shuffled.length - 1; index > 0; index -= 1) {
+    seed = (Math.imul(seed, 1664525) + 1013904223) >>> 0;
+    const target = seed % (index + 1);
+    [shuffled[index], shuffled[target]] = [shuffled[target], shuffled[index]];
+  }
+  return shuffled.slice(0, Math.min(count, shuffled.length));
+}
+
+export const scoreBand = (score: number) => score >= 708 ? '🟩' : score >= 500 ? '🟨' : score >= 250 ? '🟧' : '⬛';
+export function shareReceipt(dayKey: string, scores: number[]) {
+  const total = scores.reduce((sum, score) => sum + score, 0);
+  return `HOW BIG? / Bio Numbers · ${dayKey}\n${scores.map(scoreBand).join('')}\n${total}/${scores.length * 1000} · no spoilers\nhttps://ai.rhyslindmark.com/games/how-big-bio`;
+}
+
 const superscriptDigits: Record<string, string> = { '-': '⁻', '0': '⁰', '1': '¹', '2': '²', '3': '³', '4': '⁴', '5': '⁵', '6': '⁶', '7': '⁷', '8': '⁸', '9': '⁹' };
 export function scientific(value: number) {
   const exponent = Math.floor(Math.log10(value));
