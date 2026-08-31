@@ -14,18 +14,18 @@
   --color-background: var(--paper);
   --color-foreground: var(--ink);
   --color-border: var(--ink);
-  --color-ring: var(--cobalt);
+  --color-ring: var(--ink);
 }
 
-:root { --paper: #f2efe6; --ink: #1c1c1a; --cobalt: #214de8; --coral: #ff5b44; --acid: #d8ff39; }
+:root { --paper: #f7f7f4; --ink: #151513; --cobalt: #151513; --coral: #686862; --acid: #e8e8e2; }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
-body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--font-sans), sans-serif; }
+body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--font-sans), sans-serif; text-rendering: optimizeLegibility; }
 h1, h2, h3 { font-family: var(--font-display), sans-serif; }
-::selection { background: var(--acid); color: var(--ink); }
+::selection { background: var(--ink); color: var(--paper); }
 
-.timeline-slider { appearance: none; height: 12px; border: 2px solid var(--ink); background: linear-gradient(90deg, var(--cobalt), var(--coral)); cursor: ew-resize; }
-.timeline-slider::-webkit-slider-thumb { appearance: none; width: 30px; height: 42px; border: 2px solid var(--ink); border-radius: 0; background: var(--acid); box-shadow: 3px 3px 0 var(--ink); cursor: grab; }
-.timeline-slider::-moz-range-thumb { width: 30px; height: 42px; border: 2px solid var(--ink); border-radius: 0; background: var(--acid); box-shadow: 3px 3px 0 var(--ink); cursor: grab; }
-.timeline-slider:focus-visible { outline: 3px solid var(--cobalt); outline-offset: 6px; }
-.timeline-slider:disabled { cursor: default; filter: grayscale(.65); opacity: .65; }
+.timeline-slider { appearance: none; height: 3px; border: 0; background: #cecec7; cursor: ew-resize; }
+.timeline-slider::-webkit-slider-thumb { appearance: none; width: 22px; height: 22px; border: 2px solid var(--paper); border-radius: 999px; background: var(--ink); box-shadow: 0 0 0 1px var(--ink); cursor: grab; }
+.timeline-slider::-moz-range-thumb { width: 22px; height: 22px; border: 2px solid var(--paper); border-radius: 999px; background: var(--ink); box-shadow: 0 0 0 1px var(--ink); cursor: grab; }
+.timeline-slider:focus-visible { outline: 1px solid var(--ink); outline-offset: 8px; }
+.timeline-slider:disabled { cursor: default; opacity: .45; }

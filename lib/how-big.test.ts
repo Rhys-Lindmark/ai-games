@@ -1,8 +1,8 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { bioNumbersDeck, dailyBioDeck, magnitudeFactor, magnitudeScore, scientific, shareReceipt } from './how-big.ts';
+import { bioNumbersDeck, dailyBioDeck, dailyDayKey, magnitudeFactor, magnitudeScore, scientific, shareCardModel, shareReceipt } from './how-big.ts';
 
-test('Bio Numbers deck has twelve unique sourced questions spanning molecular to biosphere scale', () => {
+void test('Bio Numbers deck has twelve unique sourced questions spanning molecular to biosphere scale', () => {
   assert.equal(bioNumbersDeck.length, 12);
   assert.equal(new Set(bioNumbersDeck.map((question) => question.id)).size, 12);
   assert.ok(bioNumbersDeck.every((question) => question.value > 0 && question.sourceUrl.startsWith('https://') && question.note.length > 40));
@@ -11,7 +11,9 @@ test('Bio Numbers deck has twelve unique sourced questions spanning molecular to
   assert.ok(Math.max(...exponents) > 30);
 });
 
-test('daily selection is stable, bounded, and share receipts reveal no answers', () => {
+void test('daily selection is stable, bounded, and share receipts reveal no answers', () => {
+  assert.equal(dailyDayKey(new Date('2026-08-31T05:30:00Z')), '2026-08-30');
+  assert.equal(dailyDayKey(new Date('2026-08-31T07:30:00Z')), '2026-08-31');
   const today = dailyBioDeck(bioNumbersDeck, '2026-08-30');
   assert.deepEqual(today, dailyBioDeck(bioNumbersDeck, '2026-08-30'));
   assert.equal(today.length, 5);
@@ -21,9 +23,14 @@ test('daily selection is stable, bounded, and share receipts reveal no answers',
   assert.match(receipt, /🟩🟨🟧⬛⬛/);
   assert.match(receipt, /2448\/5000/);
   assert.ok(bioNumbersDeck.every((question) => !receipt.includes(String(question.value)) && !receipt.includes(question.id)));
+  const card = shareCardModel('2026-08-30', [1000, 700, 499, 249, 0]);
+  assert.deepEqual(Object.keys(card), ['schema_version', 'date', 'bands', 'score_total', 'score_max', 'within_one_order']);
+  assert.deepEqual(card.bands, ['half_order', 'one_order', 'two_orders', 'farther', 'farther']);
+  assert.equal(card.within_one_order, 2);
+  assert.ok(!JSON.stringify(card).match(/question|answer|value|source|human-cells/));
 });
 
-test('scoring halves for every order missed and formatting preserves negative exponents', () => {
+void test('scoring halves for every order missed and formatting preserves negative exponents', () => {
   assert.equal(magnitudeScore(6, 1e6), 1000);
   assert.equal(magnitudeScore(5, 1e6), 500);
   assert.equal(magnitudeScore(8, 1e6), 250);

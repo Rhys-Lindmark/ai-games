@@ -26,8 +26,14 @@ export const bioNumbersDeck: MagnitudeQuestion[] = [
 export const magnitudeScore = (guessExponent: number, value: number) => Math.round(1000 * 0.5 ** Math.abs(guessExponent - Math.log10(value)));
 export const magnitudeFactor = (guessExponent: number, value: number) => 10 ** Math.abs(guessExponent - Math.log10(value));
 
+export function dailyDayKey(date = new Date(), timeZone = 'America/Los_Angeles') {
+  const parts = new Intl.DateTimeFormat('en-US', { timeZone, year: 'numeric', month: '2-digit', day: '2-digit' }).formatToParts(date);
+  const values = Object.fromEntries(parts.map((part) => [part.type, part.value]));
+  return `${values.year}-${values.month}-${values.day}`;
+}
+
 export function dailyBioDeck(deck: MagnitudeQuestion[], dayKey: string, count = 5) {
-  let seed = [...dayKey].reduce((value, char) => Math.imul(value ^ char.charCodeAt(0), 16777619) >>> 0, 2166136261);
+  let seed = Array.from(dayKey).reduce((value, char) => Math.imul(value ^ char.charCodeAt(0), 16777619) >>> 0, 2166136261);
   const shuffled = [...deck];
   for (let index = shuffled.length - 1; index > 0; index -= 1) {
     seed = (Math.imul(seed, 1664525) + 1013904223) >>> 0;
@@ -37,10 +43,25 @@ export function dailyBioDeck(deck: MagnitudeQuestion[], dayKey: string, count = 
   return shuffled.slice(0, Math.min(count, shuffled.length));
 }
 
-export const scoreBand = (score: number) => score >= 708 ? '🟩' : score >= 500 ? '🟨' : score >= 250 ? '🟧' : '⬛';
+export type ScoreBandName = 'half_order' | 'one_order' | 'two_orders' | 'farther';
+export const scoreBandName = (score: number): ScoreBandName => score >= 708 ? 'half_order' : score >= 500 ? 'one_order' : score >= 250 ? 'two_orders' : 'farther';
+const scoreBandSymbol: Record<ScoreBandName, string> = { half_order: '🟩', one_order: '🟨', two_orders: '🟧', farther: '⬛' };
+export const scoreBand = (score: number) => scoreBandSymbol[scoreBandName(score)];
+
+export function shareCardModel(dayKey: string, scores: number[]) {
+  return {
+    schema_version: 'ai-games.how-big-share/1.0.0',
+    date: dayKey,
+    bands: scores.map(scoreBandName),
+    score_total: scores.reduce((sum, score) => sum + score, 0),
+    score_max: scores.length * 1000,
+    within_one_order: scores.filter((score) => score >= 500).length,
+  };
+}
+
 export function shareReceipt(dayKey: string, scores: number[]) {
-  const total = scores.reduce((sum, score) => sum + score, 0);
-  return `HOW BIG? / Bio Numbers · ${dayKey}\n${scores.map(scoreBand).join('')}\n${total}/${scores.length * 1000} · no spoilers\nhttps://ai.rhyslindmark.com/games/how-big-bio`;
+  const card = shareCardModel(dayKey, scores);
+  return `HOW BIG? / Bio Numbers · ${card.date}\n${scores.map(scoreBand).join('')}\n${card.score_total}/${card.score_max} · no spoilers\nhttps://ai.rhyslindmark.com/games/how-big-bio`;
 }
 
 const superscriptDigits: Record<string, string> = { '-': '⁻', '0': '⁰', '1': '¹', '2': '²', '3': '³', '4': '⁴', '5': '⁵', '6': '⁶', '7': '⁷', '8': '⁸', '9': '⁹' };
