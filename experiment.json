@@ -17,9 +17,9 @@
   "evidence": [
     {
       "kind": "shipped_prototype",
-      "date": "2026-08-30",
+      "date": "2026-09-01",
       "url": "https://ai.rhyslindmark.com/games",
-      "note": "Public playable history-timeline prototype; question-set verification remains incomplete."
+      "note": "Public playable history-timeline prototype with 173 source-mapped questions, typed year answers, daily ten-question rounds, and tested curriculum-level feedback."
     },
     {
       "kind": "shipped_prototype",
@@ -29,5 +29,5 @@
     }
   ],
   "next_review_date": "2026-09-06",
-  "updated_at": "2026-08-30"
+  "updated_at": "2026-09-01"
 }
