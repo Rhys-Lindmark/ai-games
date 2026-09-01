@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
 import test from 'node:test';
 import { bioNumbersDeck, dailyBioDeck, dailyDayKey, magnitudeFactor, magnitudeScore, scientific, shareCardModel, shareReceipt } from './how-big.ts';
 
@@ -37,4 +38,10 @@ void test('scoring halves for every order missed and formatting preserves negati
   assert.equal(magnitudeFactor(8, 1e6), 100);
   assert.equal(scientific(2.04e-9), '2 × 10⁻⁹');
   assert.equal(scientific(3e13), '3 × 10¹³');
+});
+
+void test('Games links Bio Numbers through its canonical custom-domain route', () => {
+  const gamesPage = readFileSync(new URL('../app/page.tsx', import.meta.url), 'utf8');
+  assert.match(gamesPage, /href="https:\/\/ai\.rhyslindmark\.com\/games\/how-big-bio"/);
+  assert.doesNotMatch(gamesPage, /rhyslindmark\.substack\.com\/how-big-bio/);
 });
