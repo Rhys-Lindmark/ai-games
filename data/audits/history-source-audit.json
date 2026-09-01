@@ -1,12 +1,12 @@
 {
   "schema_version": "ai-games.history-source-audit/0.1.0",
   "verified_at": "2026-09-01",
-  "question_count": 213,
-  "unique_url_count": 194,
+  "question_count": 223,
+  "unique_url_count": 204,
   "states": {
-    "access_blocked": 74,
-    "network_error": 2,
-    "reachable": 118
+    "access_blocked": 71,
+    "network_error": 3,
+    "reachable": 130
   },
   "records": [
     {
@@ -142,6 +142,12 @@
       "final_url": "https://blogs.loc.gov/maps/2019/09/sailing-the-early-seas-with-portolan-charts/"
     },
     {
+      "url": "https://cmgds.marine.usgs.gov/data/walrus/tsunami/indianocean.html",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://cmgds.marine.usgs.gov/data/walrus/tsunami/indianocean.html"
+    },
+    {
       "url": "https://collection.sciencemuseumgroup.org.uk/objects/co50887/drawing-of-thomas-newcomens-pumping-engine-1712-drawing",
       "status": 403,
       "state": "access_blocked",
@@ -164,6 +170,12 @@
       "status": 200,
       "state": "reachable",
       "final_url": "https://digitallibrary.un.org/nanna/record/1480617/files/A_AC.119_SR.30-EN.pdf?withWatermark=0&withMetadata=0&registerDownload=1&version=1"
+    },
+    {
+      "url": "https://digitallibrary.un.org/record/4077242/files/WhenDictatorsFall.pdf",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://digitallibrary.un.org/nanna/record/4077242/files/WhenDictatorsFall.pdf?withWatermark=0&withMetadata=0&registerDownload=1&version=1"
     },
     {
       "url": "https://educationalgames.nobelprize.org/educational/medicine/insulin/discovery-insulin.html",
@@ -235,7 +247,7 @@
       "url": "https://kvmgm.ktb.gov.tr/Eklenti/122541%2Cmusmalazgirtmuzesi220324engpdf.pdf?0=",
       "status": 200,
       "state": "reachable",
-      "final_url": "https://s3.ktb.gov.tr/web-icerik-yonetim-sistemi/Eklentiler/122541-7C80BCA724DD10A1B996031E71817C4D673B5014.pdf?X-Amz-Expires=300&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=UvIQZ7ewE1lI3cPR5VG0%2F20260901%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260901T143220Z&X-Amz-SignedHeaders=host&X-Amz-Signature=abdd60d74851dd36aa00a360135d9a059e5a907b0958007cbdbe2f4302700bed"
+      "final_url": "https://s3.ktb.gov.tr/web-icerik-yonetim-sistemi/Eklentiler/122541-7C80BCA724DD10A1B996031E71817C4D673B5014.pdf?X-Amz-Expires=300&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=UvIQZ7ewE1lI3cPR5VG0%2F20260901%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260901T150711Z&X-Amz-SignedHeaders=host&X-Amz-Signature=41e0bbd0aec7e2979987e993b1d84ad347ff48ffd1c31cbca6b5d03367b60804"
     },
     {
       "url": "https://learninglab.si.edu/collections/onesimus-and-the-1721-smallpox-outbreak-in-boston/Ya3HENakRPRLW37a",
@@ -251,9 +263,9 @@
     },
     {
       "url": "https://library.si.edu/digital-library/book/astronomianovaa00kepl",
-      "status": 200,
-      "state": "reachable",
-      "final_url": "https://library.si.edu/digital-library/book/astronomianovaa00kepl"
+      "status": null,
+      "state": "network_error",
+      "error": "TypeError"
     },
     {
       "url": "https://microsites.jfklibrary.org/cmc/",
@@ -442,6 +454,12 @@
       "final_url": "https://tile.loc.gov/storage-services/service/gdc/gdclccn/a2/20/00/97/2/a22000972/a22000972.pdf"
     },
     {
+      "url": "https://ukraine.un.org/en/173250-statement-secretary-general-%E2%80%93-ukraine",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://ukraine.un.org/en/173250-statement-secretary-general-%E2%80%93-ukraine"
+    },
+    {
       "url": "https://whc.unesco.org/archive/advisory_body_evaluation/668.pdf",
       "status": 200,
       "state": "reachable",
@@ -461,20 +479,20 @@
     },
     {
       "url": "https://whc.unesco.org/en/list/1336/",
-      "status": 403,
-      "state": "access_blocked",
+      "status": 200,
+      "state": "reachable",
       "final_url": "https://whc.unesco.org/en/list/1336/"
     },
     {
       "url": "https://whc.unesco.org/en/list/252/",
-      "status": 403,
-      "state": "access_blocked",
+      "status": 200,
+      "state": "reachable",
       "final_url": "https://whc.unesco.org/en/list/252/"
     },
     {
       "url": "https://whc.unesco.org/en/list/330",
-      "status": 403,
-      "state": "access_blocked",
+      "status": 200,
+      "state": "reachable",
       "final_url": "https://whc.unesco.org/en/list/330"
     },
     {
@@ -512,6 +530,24 @@
       "status": 200,
       "state": "reachable",
       "final_url": "https://whc.unesco.org/fr/listesindicatives/6460/"
+    },
+    {
+      "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1710-ReportByTheDG-Web.pdf",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1710-ReportByTheDG-Web.pdf"
+    },
+    {
+      "url": "https://www.911memorial.org/learn/resources/911-primer/module-1-events-day",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.911memorial.org/learn/resources/911-primer/module-1-events-day"
+    },
+    {
+      "url": "https://www.apple.com/newsroom/2007/01/09Apple-Reinvents-the-Phone-with-iPhone/",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.apple.com/newsroom/2007/01/09Apple-Reinvents-the-Phone-with-iPhone/"
     },
     {
       "url": "https://www.archives.gov/exhibits/eyewitness/html.php?section=1",
@@ -644,6 +680,12 @@
       "status": 200,
       "state": "reachable",
       "final_url": "https://www.gov.za/issues/20years/milestones-20-years-freedom"
+    },
+    {
+      "url": "https://www.govinfo.gov/content/pkg/GPO-FCIC/pdf/GPO-FCIC.pdf",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.govinfo.gov/content/pkg/GPO-FCIC/pdf/GPO-FCIC.pdf"
     },
     {
       "url": "https://www.imf.org/external/about/timeline/index.htm",
@@ -1048,6 +1090,12 @@
       "final_url": "https://www.nps.gov/jame/learn/historyculture/a-short-history-of-jamestown.htm"
     },
     {
+      "url": "https://www.nsf.gov/news/astronomers-capture-first-image-black-hole",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.nsf.gov/news/astronomers-capture-first-image-black-hole"
+    },
+    {
       "url": "https://www.opec.org/pr-detail/206-14-sep-2021.html",
       "status": 200,
       "state": "reachable",
@@ -1126,6 +1174,12 @@
       "final_url": "https://www.unesco.org/en/memory-world/asian-african-conference-archives"
     },
     {
+      "url": "https://www.unfccc.int/process-and-meetings/the-kyoto-protocol",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.unfccc.int/process-and-meetings/the-kyoto-protocol"
+    },
+    {
       "url": "https://www.unfccc.int/process-and-meetings/the-paris-agreement",
       "status": 200,
       "state": "reachable",
@@ -1136,6 +1190,12 @@
       "status": 200,
       "state": "reachable",
       "final_url": "https://www.verdun.fr/connaitre-ma-ville-et-mon-agglo/ville/les-archives-municipales/terre-dhistoire/le-traite-de-verdun/"
+    },
+    {
+      "url": "https://www.who.int/news-room/speeches/item/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19---11-march-2020",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.who.int/news-room/speeches/item/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19---11-march-2020"
     },
     {
       "url": "https://www.who.int/news-room/spotlight/history-of-vaccination/a-brief-history-of-vaccination",

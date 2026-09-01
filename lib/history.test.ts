@@ -4,7 +4,7 @@ import { dailyHistoryDeck, dailyHistoryQuestionCount, formatHistoryYear, history
 
 void test('history library begins a sourced 1,000-question curriculum', () => {
   assert.equal(historyQuestionTarget, 1000);
-  assert.equal(historyQuestions.length, 213);
+  assert.equal(historyQuestions.length, 223);
   assert.equal(new Set(historyQuestions.map((question) => question.id)).size, historyQuestions.length);
   assert.equal(new Set(historyQuestions.map((question) => question.prompt)).size, historyQuestions.length);
   assert.ok(historyQuestions.every((question) => question.year >= question.min && question.year <= question.max));
@@ -223,6 +223,20 @@ void test('history library begins a sourced 1,000-question curriculum', () => {
     'alexander-crosses-into-asia',
   ];
   assert.ok(preClassicalCorrectionBatch.every((id) => historyQuestions.some((question) => question.id === id)));
+  const recentHistoryBatch = [
+    'september-eleven-attacks',
+    'indian-ocean-tsunami',
+    'kyoto-protocol-enters-force',
+    'first-iphone-introduced',
+    'lehman-bankruptcy',
+    'tunisian-revolution-protests',
+    'fukushima-daiichi-accident',
+    'first-black-hole-image',
+    'who-covid-pandemic-characterization',
+    'russia-full-scale-ukraine-invasion',
+  ];
+  assert.ok(recentHistoryBatch.every((id) => historyQuestions.some((question) => question.id === id)));
+  assert.equal(historyQuestions.filter((question) => question.year >= 2000).length, 16);
 });
 
 void test('ancient dates are shown as human BCE/CE labels', () => {
