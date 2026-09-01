@@ -1,12 +1,12 @@
 {
   "schema_version": "ai-games.history-source-audit/0.1.0",
   "verified_at": "2026-09-01",
-  "question_count": 173,
-  "unique_url_count": 157,
+  "question_count": 183,
+  "unique_url_count": 166,
   "states": {
-    "access_blocked": 58,
-    "network_error": 2,
-    "reachable": 97
+    "access_blocked": 59,
+    "network_error": 1,
+    "reachable": 106
   },
   "records": [
     {
@@ -136,6 +136,12 @@
       "final_url": "https://collections.louvre.fr/en/ark:/53355/cl010174436"
     },
     {
+      "url": "https://digitallibrary.un.org/record/1480617/files/A_AC.119_SR.30-EN.pdf",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://digitallibrary.un.org/nanna/record/1480617/files/A_AC.119_SR.30-EN.pdf?withWatermark=0&withMetadata=0&registerDownload=1&version=1"
+    },
+    {
       "url": "https://educationalgames.nobelprize.org/educational/medicine/insulin/discovery-insulin.html",
       "status": 200,
       "state": "reachable",
@@ -172,6 +178,12 @@
       "final_url": "https://guides.loc.gov/haiti-reimagined"
     },
     {
+      "url": "https://home.nps.gov/articles/000/arrival-of-the-first-africans-in-1619.htm",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://home.nps.gov/articles/000/arrival-of-the-first-africans-in-1619.htm"
+    },
+    {
       "url": "https://home.nps.gov/articles/chaco.htm",
       "status": 200,
       "state": "reachable",
@@ -190,6 +202,12 @@
       "final_url": "https://library.olympics.com/digitalCollection/DigitalCollectionAttachmentDownloadHandler.ashx?documentId=2435425&parentDocumentId=2435424&skipCopyright=true&skipWatermark=true"
     },
     {
+      "url": "https://library.si.edu/digital-library/book/astronomianovaa00kepl",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://library.si.edu/digital-library/book/astronomianovaa00kepl"
+    },
+    {
       "url": "https://microsites.jfklibrary.org/cmc/",
       "status": 200,
       "state": "reachable",
@@ -200,6 +218,12 @@
       "status": 200,
       "state": "reachable",
       "final_url": "https://periodic-table.rsc.org/about"
+    },
+    {
+      "url": "https://pictures.royalsociety.org/image-rs-6108",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://pictures.royalsociety.org/image-rs-6108"
     },
     {
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2895849/",
@@ -298,6 +322,18 @@
       "final_url": "https://resources.metmuseum.org/resources/metpublications/pdf/The_Year_One_Art_of_the_Ancient_World_East_and_West.pdf"
     },
     {
+      "url": "https://royalsociety.org/news/2014/astronaut-tim-peake-principia/",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://royalsociety.org/news/2014/astronaut-tim-peake-principia/"
+    },
+    {
+      "url": "https://sahistory.org.za/article/arrival-jan-van-riebeeck-cape-6-april-1652",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://sahistory.org.za/article/arrival-jan-van-riebeeck-cape-6-april-1652"
+    },
+    {
       "url": "https://smarthistory.org/gupta-period/",
       "status": 403,
       "state": "access_blocked",
@@ -358,6 +394,12 @@
       "final_url": "https://whc.unesco.org/en/list/1336/"
     },
     {
+      "url": "https://whc.unesco.org/en/list/252/",
+      "status": 403,
+      "state": "access_blocked",
+      "final_url": "https://whc.unesco.org/en/list/252/"
+    },
+    {
       "url": "https://whc.unesco.org/en/list/330",
       "status": 403,
       "state": "access_blocked",
@@ -365,8 +407,8 @@
     },
     {
       "url": "https://whc.unesco.org/en/list/364/",
-      "status": 403,
-      "state": "access_blocked",
+      "status": 200,
+      "state": "reachable",
       "final_url": "https://whc.unesco.org/en/list/364/"
     },
     {
@@ -524,6 +566,12 @@
       "status": 200,
       "state": "reachable",
       "final_url": "https://www.imf.org/external/about/timeline/index.htm"
+    },
+    {
+      "url": "https://www.loc.gov/collections/finding-our-place-in-the-cosmos-with-carl-sagan-and-beyond/articles-and-essays/modeling-the-cosmos/galileo-and-the-telescope",
+      "status": 403,
+      "state": "access_blocked",
+      "final_url": "https://www.loc.gov/collections/finding-our-place-in-the-cosmos-with-carl-sagan-and-beyond/articles-and-essays/modeling-the-cosmos/galileo-and-the-telescope"
     },
     {
       "url": "https://www.loc.gov/exhibits/exploring-the-early-americas/columbus-and-the-taino.html",
@@ -832,6 +880,12 @@
       "final_url": "https://www.nobelprize.org/stories/cells-nerves-genes/"
     },
     {
+      "url": "https://www.nps.gov/jame/learn/historyculture/a-short-history-of-jamestown.htm",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.nps.gov/jame/learn/historyculture/a-short-history-of-jamestown.htm"
+    },
+    {
       "url": "https://www.opec.org/pr-detail/206-14-sep-2021.html",
       "status": 200,
       "state": "reachable",
@@ -857,9 +911,9 @@
     },
     {
       "url": "https://www.rijksmuseum.nl/nl/collectie/object/Oost-Indievaarders-voor-de-kust--cb27a8dd65ec584d17acd8579e064ca4",
-      "status": null,
-      "state": "network_error",
-      "error": "TypeError"
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.rijksmuseum.nl/nl/collectie/object/Oost-Indievaarders-voor-de-kust--cb27a8dd65ec584d17acd8579e064ca4"
     },
     {
       "url": "https://www.rmg.co.uk/collections/research-guides/research-guide-q1-exploration-discovery",
