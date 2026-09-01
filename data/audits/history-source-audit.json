@@ -1,11 +1,11 @@
 {
   "schema_version": "ai-games.history-source-audit/0.1.0",
-  "verified_at": "2026-08-31",
-  "question_count": 43,
-  "unique_url_count": 38,
+  "verified_at": "2026-09-01",
+  "question_count": 53,
+  "unique_url_count": 48,
   "states": {
     "access_blocked": 22,
-    "reachable": 16
+    "reachable": 26
   },
   "records": [
     {
@@ -31,6 +31,18 @@
       "status": 200,
       "state": "reachable",
       "final_url": "https://82nd-and-fifth.metmuseum.org/toah/ht/06/nc.html"
+    },
+    {
+      "url": "https://airandspace.si.edu/collection-objects/1903-wright-flyer/nasm_A19610048000",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://airandspace.si.edu/collection-objects/1903-wright-flyer/nasm_A19610048000"
+    },
+    {
+      "url": "https://blog.railwaymuseum.org.uk/shildon-the-cradle-of-the-railways-and-locomotion-no-1/",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://blog.railwaymuseum.org.uk/shildon-the-cradle-of-the-railways-and-locomotion-no-1/"
     },
     {
       "url": "https://blog.sciencemuseum.org.uk/james-watt-and-the-separate-condenser/",
@@ -69,6 +81,12 @@
       "final_url": "https://library.olympics.com/digitalCollection/DigitalCollectionAttachmentDownloadHandler.ashx?documentId=2435425&parentDocumentId=2435424&skipCopyright=true&skipWatermark=true"
     },
     {
+      "url": "https://periodic-table.rsc.org/about",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://periodic-table.rsc.org/about"
+    },
+    {
       "url": "https://resources.metmuseum.org/resources/metpublications/pdf/The_Year_One_Art_of_the_Ancient_World_East_and_West.pdf",
       "status": 200,
       "state": "reachable",
@@ -103,6 +121,12 @@
       "status": 200,
       "state": "reachable",
       "final_url": "https://www.bundestag.de/resource/blob/480634/exhibition_dome.pdf"
+    },
+    {
+      "url": "https://www.genome.gov/human-genome-project/timeline",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.genome.gov/human-genome-project/timeline"
     },
     {
       "url": "https://www.loc.gov/exhibits/exploring-the-early-americas/columbus-and-the-taino.html",
@@ -207,6 +231,18 @@
       "final_url": "https://www.metmuseum.org/toah/ht/05/eust.html"
     },
     {
+      "url": "https://www.nasa.gov/history/dawn-of-the-space-age/",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.nasa.gov/history/dawn-of-the-space-age/"
+    },
+    {
+      "url": "https://www.nasa.gov/missions/apollo/apollo-11/apollo-11-mission-overview/",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.nasa.gov/missions/apollo/apollo-11/apollo-11-mission-overview/"
+    },
+    {
       "url": "https://www.nationalarchives.gov.uk/education/resources/indian-independence/",
       "status": 200,
       "state": "reachable",
@@ -217,6 +253,24 @@
       "status": 200,
       "state": "reachable",
       "final_url": "https://www.ndl.go.jp/portrait/e/pickup/012/"
+    },
+    {
+      "url": "https://www.nobelprize.org/prizes/chemistry/2020/press-release/",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.nobelprize.org/prizes/chemistry/2020/press-release/"
+    },
+    {
+      "url": "https://www.nobelprize.org/prizes/medicine/1945/fleming/questions-and-answers/",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.nobelprize.org/prizes/medicine/1945/fleming/questions-and-answers/"
+    },
+    {
+      "url": "https://www.nobelprize.org/stories/cells-nerves-genes/",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.nobelprize.org/stories/cells-nerves-genes/"
     },
     {
       "url": "https://www.parliament.uk/about/living-heritage/building/palace/estatehistory/the-middle-ages/palace-normans/",
@@ -235,6 +289,12 @@
       "status": 403,
       "state": "access_blocked",
       "final_url": "https://www.si.edu/spotlight/ancient-egypt/pyramid"
+    },
+    {
+      "url": "https://www.who.int/news-room/spotlight/history-of-vaccination/history-of-smallpox-vaccination",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.who.int/news-room/spotlight/history-of-vaccination/history-of-smallpox-vaccination"
     }
   ]
 }
