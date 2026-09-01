@@ -4,7 +4,7 @@ import { dailyHistoryDeck, dailyHistoryQuestionCount, formatHistoryYear, history
 
 void test('history library begins a sourced 1,000-question curriculum', () => {
   assert.equal(historyQuestionTarget, 1000);
-  assert.equal(historyQuestions.length, 113);
+  assert.equal(historyQuestions.length, 123);
   assert.equal(new Set(historyQuestions.map((question) => question.id)).size, historyQuestions.length);
   assert.equal(new Set(historyQuestions.map((question) => question.prompt)).size, historyQuestions.length);
   assert.ok(historyQuestions.every((question) => question.year >= question.min && question.year <= question.max));
@@ -104,6 +104,19 @@ void test('history library begins a sourced 1,000-question curriculum', () => {
     'china-joins-wto',
   ];
   assert.ok(globalEconomyBatch.every((id) => historyQuestions.some((question) => question.id === id)));
+  const ancientEarlyMedievalBatch = [
+    'stonehenge-central-stones',
+    'caral-organized-system',
+    'meroe-royal-residence',
+    'jenne-jeno-first-occupation',
+    'roman-empire-maximum-trajan',
+    'justinian-law-compilation',
+    'sui-reunification',
+    'goryeo-reunification',
+    'monte-alban-founded',
+    'chaco-great-houses',
+  ];
+  assert.ok(ancientEarlyMedievalBatch.every((id) => historyQuestions.some((question) => question.id === id)));
 });
 
 void test('ancient dates are shown as human BCE/CE labels', () => {

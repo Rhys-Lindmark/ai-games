@@ -1,11 +1,11 @@
 {
   "schema_version": "ai-games.history-source-audit/0.1.0",
   "verified_at": "2026-09-01",
-  "question_count": 113,
-  "unique_url_count": 103,
+  "question_count": 123,
+  "unique_url_count": 113,
   "states": {
-    "access_blocked": 35,
-    "reachable": 68
+    "access_blocked": 36,
+    "reachable": 77
   },
   "records": [
     {
@@ -31,6 +31,12 @@
       "status": 200,
       "state": "reachable",
       "final_url": "https://82nd-and-fifth.metmuseum.org/toah/ht/05/cam.html"
+    },
+    {
+      "url": "https://82nd-and-fifth.metmuseum.org/toah/ht/06/eak.html",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://82nd-and-fifth.metmuseum.org/toah/ht/06/eak.html"
     },
     {
       "url": "https://82nd-and-fifth.metmuseum.org/toah/ht/06/nc.html",
@@ -105,6 +111,12 @@
       "final_url": "https://guides.loc.gov/haiti-reimagined"
     },
     {
+      "url": "https://home.nps.gov/articles/chaco.htm",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://home.nps.gov/articles/chaco.htm"
+    },
+    {
       "url": "https://library.olympics.com/digitalCollection/DigitalCollectionAttachmentDownloadHandler.ashx?documentId=2435425&parentDocumentId=2435424&skipCopyright=true&skipWatermark=true",
       "status": 200,
       "state": "reachable",
@@ -153,6 +165,12 @@
       "final_url": "https://resources.metmuseum.org/resources/metpublications/pdf/Lost_Kingdoms_Hindu_Buddhist_Sculpture_of_Early_Southeast_Asia.pdf"
     },
     {
+      "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_of_the_Metropolitan_Museum_of_Art_2006.pdf",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_of_the_Metropolitan_Museum_of_Art_2006.pdf"
+    },
+    {
       "url": "https://resources.metmuseum.org/resources/metpublications/pdf/The_Year_One_Art_of_the_Ancient_World_East_and_West.pdf",
       "status": 200,
       "state": "reachable",
@@ -163,6 +181,12 @@
       "status": 403,
       "state": "access_blocked",
       "final_url": "https://smarthistory.org/gupta-period/"
+    },
+    {
+      "url": "https://smarthistory.org/period-of-division-intro/",
+      "status": 403,
+      "state": "access_blocked",
+      "final_url": "https://smarthistory.org/period-of-division-intro/"
     },
     {
       "url": "https://teara.govt.nz/en/history/page-1",
@@ -189,27 +213,39 @@
       "final_url": "https://tile.loc.gov/storage-services/service/gdc/gdclccn/a2/20/00/97/2/a22000972/a22000972.pdf"
     },
     {
-      "url": "https://whc.unesco.org/en/list/330",
+      "url": "https://whc.unesco.org/document/152221",
       "status": 403,
       "state": "access_blocked",
+      "final_url": "https://whc.unesco.org/document/152221"
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1336/",
+      "status": 403,
+      "state": "access_blocked",
+      "final_url": "https://whc.unesco.org/en/list/1336/"
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/330",
+      "status": 200,
+      "state": "reachable",
       "final_url": "https://whc.unesco.org/en/list/330"
     },
     {
       "url": "https://whc.unesco.org/en/list/364/",
-      "status": 403,
-      "state": "access_blocked",
+      "status": 200,
+      "state": "reachable",
       "final_url": "https://whc.unesco.org/en/list/364/"
     },
     {
       "url": "https://whc.unesco.org/en/list/4/",
-      "status": 403,
-      "state": "access_blocked",
+      "status": 200,
+      "state": "reachable",
       "final_url": "https://whc.unesco.org/en/list/4/"
     },
     {
       "url": "https://whc.unesco.org/fr/listesindicatives/6460/",
-      "status": 403,
-      "state": "access_blocked",
+      "status": 200,
+      "state": "reachable",
       "final_url": "https://whc.unesco.org/fr/listesindicatives/6460/"
     },
     {
@@ -273,6 +309,12 @@
       "final_url": "https://www.ecb.europa.eu/euro/intro/html/index.en.html"
     },
     {
+      "url": "https://www.english-heritage.org.uk/visit/places/stonehenge/history-and-stories/building-stonehenge/",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.english-heritage.org.uk/visit/places/stonehenge/history-and-stories/building-stonehenge/"
+    },
+    {
       "url": "https://www.europarl.europa.eu/about-parliament/en/in-the-past/the-parliament-and-the-treaties/maastricht-treaty",
       "status": 202,
       "state": "reachable",
@@ -321,6 +363,12 @@
       "final_url": "https://www.loc.gov/exhibits/mexican-revolution-and-the-united-states/independence-from-spain.html"
     },
     {
+      "url": "https://www.loc.gov/loc/lcib/11078/law.html",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.loc.gov/loc/lcib/11078/law.html"
+    },
+    {
       "url": "https://www.loc.gov/resource/amed.2008700222/?st=gallery",
       "status": 403,
       "state": "access_blocked",
@@ -361,6 +409,18 @@
       "status": 429,
       "state": "access_blocked",
       "final_url": "https://www.metmuseum.org/essays/carolingian-art"
+    },
+    {
+      "url": "https://www.metmuseum.org/essays/inland-niger-delta",
+      "status": 429,
+      "state": "access_blocked",
+      "final_url": "https://www.metmuseum.org/essays/inland-niger-delta"
+    },
+    {
+      "url": "https://www.metmuseum.org/essays/monte-alban",
+      "status": 429,
+      "state": "access_blocked",
+      "final_url": "https://www.metmuseum.org/essays/monte-alban"
     },
     {
       "url": "https://www.metmuseum.org/essays/the-birth-of-islam",
