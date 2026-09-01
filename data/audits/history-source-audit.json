@@ -1,12 +1,12 @@
 {
   "schema_version": "ai-games.history-source-audit/0.1.0",
   "verified_at": "2026-09-01",
-  "question_count": 203,
-  "unique_url_count": 184,
+  "question_count": 213,
+  "unique_url_count": 194,
   "states": {
-    "access_blocked": 71,
-    "network_error": 1,
-    "reachable": 112
+    "access_blocked": 74,
+    "network_error": 2,
+    "reachable": 118
   },
   "records": [
     {
@@ -62,6 +62,12 @@
       "status": 200,
       "state": "reachable",
       "final_url": "https://82nd-and-fifth.metmuseum.org/toah/ht/06/nc.html"
+    },
+    {
+      "url": "https://82nd-and-fifth.metmuseum.org/toah/ht/07/eaj.html",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://82nd-and-fifth.metmuseum.org/toah/ht/07/eaj.html"
     },
     {
       "url": "https://82nd-and-fifth.metmuseum.org/toah/ht/07/sse.html",
@@ -148,6 +154,12 @@
       "final_url": "https://collections.louvre.fr/en/ark:/53355/cl010174436"
     },
     {
+      "url": "https://delhitourism.gov.in/aboutus/history_of_delhi.html",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://delhitourism.gov.in/aboutus/history_of_delhi.html"
+    },
+    {
       "url": "https://digitallibrary.un.org/record/1480617/files/A_AC.119_SR.30-EN.pdf",
       "status": 200,
       "state": "reachable",
@@ -164,6 +176,12 @@
       "status": 200,
       "state": "reachable",
       "final_url": "https://en.chnmuseum.cn/Portals/0/web/exhibition/exhibitions/161120Chines-Epic/en.html"
+    },
+    {
+      "url": "https://en.unesco.org/silkroad/sites/default/files/knowledge-bank-article/the%20paths%20of%20new%20beliefs.pdf",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.unesco.org/en/silkroads"
     },
     {
       "url": "https://guides.loc.gov/brazil-us-relations/empire-of-brazil",
@@ -206,6 +224,18 @@
       "status": 403,
       "state": "access_blocked",
       "final_url": "https://idp.bl.uk/discover/learning/buddhism-on-the-silk-roads/articles/buddhism-on-the-ground/buddhist-texts-the-diamond-sutra/"
+    },
+    {
+      "url": "https://kebudayaan.kemdikbud.go.id/dpk/cakrawala-ma%E1%B9%87%E1%B8%8Dala-dwipantara-wawasan-kemaritiman-kerajaan-singhasari/",
+      "status": null,
+      "state": "network_error",
+      "error": "TypeError"
+    },
+    {
+      "url": "https://kvmgm.ktb.gov.tr/Eklenti/122541%2Cmusmalazgirtmuzesi220324engpdf.pdf?0=",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://s3.ktb.gov.tr/web-icerik-yonetim-sistemi/Eklentiler/122541-7C80BCA724DD10A1B996031E71817C4D673B5014.pdf?X-Amz-Expires=300&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=UvIQZ7ewE1lI3cPR5VG0%2F20260901%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260901T143220Z&X-Amz-SignedHeaders=host&X-Amz-Signature=abdd60d74851dd36aa00a360135d9a059e5a907b0958007cbdbe2f4302700bed"
     },
     {
       "url": "https://learninglab.si.edu/collections/onesimus-and-the-1721-smallpox-outbreak-in-boston/Ya3HENakRPRLW37a",
@@ -368,6 +398,12 @@
       "status": 200,
       "state": "reachable",
       "final_url": "https://sahistory.org.za/article/arrival-jan-van-riebeeck-cape-6-april-1652"
+    },
+    {
+      "url": "https://sathee.iitk.ac.in/ncert-books/class-11/knowledge-traditions-and-practices-of-india/chapter-06-mathematics-in-india/",
+      "status": 403,
+      "state": "access_blocked",
+      "final_url": "https://sathee.iitk.ac.in/ncert-books/class-11/knowledge-traditions-and-practices-of-india/chapter-06-mathematics-in-india/"
     },
     {
       "url": "https://smarthistory.org/gupta-period/",
@@ -784,6 +820,12 @@
       "final_url": "https://www.metmuseum.org/essays/the-roman-empire-27-b-c-393-a-d"
     },
     {
+      "url": "https://www.metmuseum.org/exhibitions/listings/2009/korean-renaissance",
+      "status": 429,
+      "state": "access_blocked",
+      "final_url": "https://www.metmuseum.org/exhibitions/listings/2009/korean-renaissance"
+    },
+    {
       "url": "https://www.metmuseum.org/exhibitions/listings/2010/yuan-revolution",
       "status": 429,
       "state": "access_blocked",
@@ -872,6 +914,12 @@
       "status": 429,
       "state": "access_blocked",
       "final_url": "https://www.metmuseum.org/ko/essays/the-crusades-1095-1291"
+    },
+    {
+      "url": "https://www.metmuseum.org/learn/educators/curriculum-resources/~/media/Files/Learn/For%20Educators/Publications%20for%20Educators/Islamic%20Teacher%20Resource/Unit1.pdf",
+      "status": 429,
+      "state": "access_blocked",
+      "final_url": "https://www.metmuseum.org/learn/educators/curriculum-resources/~/media/Files/Learn/For%20Educators/Publications%20for%20Educators/Islamic%20Teacher%20Resource/Unit1.pdf"
     },
     {
       "url": "https://www.metmuseum.org/met-publications/roman-art-a-resource-for-educators",
@@ -988,6 +1036,12 @@
       "final_url": "https://www.nobelprize.org/stories/cells-nerves-genes/"
     },
     {
+      "url": "https://www.nps.gov/articles/midwest-region-s-only-world-heritage-site-and-a-promise-of-more-to-come.htm",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.nps.gov/articles/midwest-region-s-only-world-heritage-site-and-a-promise-of-more-to-come.htm"
+    },
+    {
       "url": "https://www.nps.gov/jame/learn/historyculture/a-short-history-of-jamestown.htm",
       "status": 200,
       "state": "reachable",
@@ -1076,6 +1130,12 @@
       "status": 200,
       "state": "reachable",
       "final_url": "https://www.unfccc.int/process-and-meetings/the-paris-agreement"
+    },
+    {
+      "url": "https://www.verdun.fr/connaitre-ma-ville-et-mon-agglo/ville/les-archives-municipales/terre-dhistoire/le-traite-de-verdun/",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.verdun.fr/connaitre-ma-ville-et-mon-agglo/ville/les-archives-municipales/terre-dhistoire/le-traite-de-verdun/"
     },
     {
       "url": "https://www.who.int/news-room/spotlight/history-of-vaccination/a-brief-history-of-vaccination",
