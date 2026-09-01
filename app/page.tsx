@@ -41,7 +41,7 @@ export default function GamesLab() {
   const restart = () => { setIndex(0); setGuessText(''); setEra('CE'); setSubmittedGuess(null); setScores([]); };
 
   return <main className="min-h-screen bg-paper text-ink">
-    <header className="border-b border-ink/15"><div className="mx-auto flex max-w-xl items-center justify-between px-5 py-5"><Link className="text-sm font-semibold" href="/">When?</Link><Link aria-label="Open Bio Numbers" className="border-b border-ink text-sm" href="/games/how-big-bio">Bio Numbers</Link></div></header>
+    <header className="border-b border-ink/15"><div className="mx-auto flex max-w-xl items-center justify-between px-5 py-5"><Link className="text-sm font-semibold" href="/">When?</Link><Link aria-label="Open Bio Numbers" className="border-b border-ink text-sm" href="/how-big-bio">Bio Numbers</Link></div></header>
     <section className="mx-auto max-w-xl px-5 py-12 md:py-16">
       <div className="flex items-end justify-between gap-6"><div><p className="font-mono text-[10px] uppercase tracking-[.16em] text-ink/45">Daily ten · {dayKey}</p><h1 className="mt-2 text-6xl font-semibold tracking-[-.06em]">When?</h1></div><span className="font-mono text-xs text-ink/45">{index + 1} / {questions.length}</span></div>
       <p className="mt-4 text-lg text-ink/60">Put ten important events on the timeline.</p>

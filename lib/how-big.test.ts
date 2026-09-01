@@ -42,6 +42,7 @@ void test('scoring halves for every order missed and formatting preserves negati
 
 void test('Games links Bio Numbers through its canonical custom-domain route', () => {
   const gamesPage = readFileSync(new URL('../app/page.tsx', import.meta.url), 'utf8');
-  assert.match(gamesPage, /href="\/games\/how-big-bio"/);
+  assert.match(gamesPage, /href="\/how-big-bio"/);
+  assert.doesNotMatch(gamesPage, /href="\/games\/how-big-bio"/);
   assert.doesNotMatch(gamesPage, /rhyslindmark\.substack\.com\/how-big-bio/);
 });

@@ -30,7 +30,8 @@ const missingQuestionIds = historyQuestions
   .filter((id) => !bundle.includes(id));
 
 assert.deepEqual(missingQuestionIds, [], `Release build is stale; missing question IDs: ${missingQuestionIds.join(', ')}`);
-assert.match(bundle, /\/games\/how-big-bio/);
+assert.match(bundle, /\/how-big-bio/);
+assert.doesNotMatch(bundle, /\/games\/games\/how-big-bio/);
 assert.doesNotMatch(bundle, /rhyslindmark\.substack\.com\/how-big-bio/);
 
 console.log(`Release build matches source: all ${historyQuestions.length} history IDs and canonical Bio Numbers navigation are packaged`);
