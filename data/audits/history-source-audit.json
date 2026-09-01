@@ -1,11 +1,11 @@
 {
   "schema_version": "ai-games.history-source-audit/0.1.0",
   "verified_at": "2026-09-01",
-  "question_count": 83,
-  "unique_url_count": 74,
+  "question_count": 93,
+  "unique_url_count": 84,
   "states": {
-    "access_blocked": 32,
-    "reachable": 42
+    "access_blocked": 35,
+    "reachable": 49
   },
   "records": [
     {
@@ -81,6 +81,18 @@
       "final_url": "https://educationalgames.nobelprize.org/educational/medicine/insulin/discovery-insulin.html"
     },
     {
+      "url": "https://guides.loc.gov/brazil-us-relations/empire-of-brazil",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://guides.loc.gov/brazil-us-relations/empire-of-brazil"
+    },
+    {
+      "url": "https://guides.loc.gov/francophone-caribbean-collections-library-of-congress/haiti",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://guides.loc.gov/francophone-caribbean-collections-library-of-congress/haiti"
+    },
+    {
       "url": "https://guides.loc.gov/gutenberg/resources",
       "status": 200,
       "state": "reachable",
@@ -123,6 +135,12 @@
       "final_url": "https://pubmed.ncbi.nlm.nih.gov/8587931/"
     },
     {
+      "url": "https://researchbriefings.files.parliament.uk/documents/LLN-2019-0104/LLN-2019-0104.pdf",
+      "status": 403,
+      "state": "access_blocked",
+      "final_url": "https://researchbriefings.files.parliament.uk/documents/LLN-2019-0104/LLN-2019-0104.pdf"
+    },
+    {
       "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Lost_Kingdoms_Hindu_Buddhist_Sculpture_of_Early_Southeast_Asia.pdf",
       "status": 200,
       "state": "reachable",
@@ -151,6 +169,12 @@
       "status": 200,
       "state": "reachable",
       "final_url": "https://tile.loc.gov/storage-services/master/gdc/gdcebookspublic/20/20/71/93/50/2020719350/2020719350.pdf"
+    },
+    {
+      "url": "https://tile.loc.gov/storage-services/master/gmd/gmd7/g7001/g7001s/2017588308.pdf",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://tile.loc.gov/storage-services/master/gmd/gmd7/g7001/g7001s/2017588308.pdf"
     },
     {
       "url": "https://tile.loc.gov/storage-services/service/gdc/gdclccn/a2/20/00/97/2/a22000972/a22000972.pdf",
@@ -189,6 +213,12 @@
       "final_url": "https://www.archives.gov/exhibits/eyewitness/html.php?section=1"
     },
     {
+      "url": "https://www.archives.gov/milestone-documents/declaration-of-independence",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.archives.gov/milestone-documents/declaration-of-independence"
+    },
+    {
       "url": "https://www.britannica.com/event/Battle-of-Marathon",
       "status": 403,
       "state": "access_blocked",
@@ -219,10 +249,28 @@
       "final_url": "https://www.genome.gov/human-genome-project/timeline"
     },
     {
+      "url": "https://www.gov.za/issues/20years/milestones-20-years-freedom",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.gov.za/issues/20years/milestones-20-years-freedom"
+    },
+    {
       "url": "https://www.loc.gov/exhibits/exploring-the-early-americas/columbus-and-the-taino.html",
       "status": 200,
       "state": "reachable",
       "final_url": "https://www.loc.gov/exhibits/exploring-the-early-americas/columbus-and-the-taino.html"
+    },
+    {
+      "url": "https://www.loc.gov/exhibits/mexican-revolution-and-the-united-states/independence-from-spain.html",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.loc.gov/exhibits/mexican-revolution-and-the-united-states/independence-from-spain.html"
+    },
+    {
+      "url": "https://www.loc.gov/resource/amed.2008700222/?st=gallery",
+      "status": 403,
+      "state": "access_blocked",
+      "final_url": "https://www.loc.gov/resource/amed.2008700222/?st=gallery"
     },
     {
       "url": "https://www.massgeneral.org/news/press-release/massachusetts-general-hospital-marks-200-years-of-patient-care",
@@ -357,6 +405,12 @@
       "final_url": "https://www.nationalarchives.gov.uk/education/resources/indian-independence/"
     },
     {
+      "url": "https://www.nationalarchives.gov.uk/education/resources/the-independence-of-bangladesh-in-1971/",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.nationalarchives.gov.uk/education/resources/the-independence-of-bangladesh-in-1971/"
+    },
+    {
       "url": "https://www.ncbi.nlm.nih.gov/books/NBK27126/",
       "status": 200,
       "state": "reachable",
@@ -409,6 +463,12 @@
       "status": 403,
       "state": "access_blocked",
       "final_url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/originsofparliament/birthofparliament/overview/magnacarta/"
+    },
+    {
+      "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/parliamentaryauthority/revolution/overview/billofrights/",
+      "status": 403,
+      "state": "access_blocked",
+      "final_url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/parliamentaryauthority/revolution/overview/billofrights/"
     },
     {
       "url": "https://www.rijksmuseum.nl/nl/collectie/object/Oost-Indievaarders-voor-de-kust--cb27a8dd65ec584d17acd8579e064ca4",
