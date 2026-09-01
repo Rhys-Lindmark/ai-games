@@ -4,7 +4,7 @@ import { dailyHistoryDeck, dailyHistoryQuestionCount, formatHistoryYear, history
 
 void test('history library begins a sourced 1,000-question curriculum', () => {
   assert.equal(historyQuestionTarget, 1000);
-  assert.equal(historyQuestions.length, 53);
+  assert.equal(historyQuestions.length, 63);
   assert.equal(new Set(historyQuestions.map((question) => question.id)).size, historyQuestions.length);
   assert.equal(new Set(historyQuestions.map((question) => question.prompt)).size, historyQuestions.length);
   assert.ok(historyQuestions.every((question) => question.year >= question.min && question.year <= question.max));
@@ -26,6 +26,19 @@ void test('history library begins a sourced 1,000-question curriculum', () => {
     'crispr-cas9-genome-editing',
   ];
   assert.ok(scienceAndTechnologyBatch.every((id) => historyQuestions.some((question) => question.id === id)));
+  const medicineAndPublicHealthBatch = [
+    'jenner-smallpox-vaccination',
+    'ether-anesthesia-demonstration',
+    'lister-antiseptic-surgery',
+    'roentgen-x-rays',
+    'insulin-discovery',
+    'salk-polio-vaccine',
+    'first-human-heart-transplant',
+    'first-ivf-birth',
+    'hiv-isolated-identified',
+    'first-covid-vaccine-doses',
+  ];
+  assert.ok(medicineAndPublicHealthBatch.every((id) => historyQuestions.some((question) => question.id === id)));
 });
 
 void test('ancient dates are shown as human BCE/CE labels', () => {

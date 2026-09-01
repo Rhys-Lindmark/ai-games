@@ -1,11 +1,11 @@
 {
   "schema_version": "ai-games.history-source-audit/0.1.0",
   "verified_at": "2026-09-01",
-  "question_count": 53,
-  "unique_url_count": 48,
+  "question_count": 63,
+  "unique_url_count": 58,
   "states": {
     "access_blocked": 22,
-    "reachable": 26
+    "reachable": 36
   },
   "records": [
     {
@@ -63,6 +63,12 @@
       "final_url": "https://collections.louvre.fr/en/ark:/53355/cl010174436"
     },
     {
+      "url": "https://educationalgames.nobelprize.org/educational/medicine/insulin/discovery-insulin.html",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://educationalgames.nobelprize.org/educational/medicine/insulin/discovery-insulin.html"
+    },
+    {
       "url": "https://guides.loc.gov/gutenberg/resources",
       "status": 200,
       "state": "reachable",
@@ -85,6 +91,24 @@
       "status": 200,
       "state": "reachable",
       "final_url": "https://periodic-table.rsc.org/about"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2895849/",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2895849/"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4200566/",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4200566/"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8587931/",
+      "status": 203,
+      "state": "reachable",
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/8587931/"
     },
     {
       "url": "https://resources.metmuseum.org/resources/metpublications/pdf/The_Year_One_Art_of_the_Ancient_World_East_and_West.pdf",
@@ -123,6 +147,12 @@
       "final_url": "https://www.bundestag.de/resource/blob/480634/exhibition_dome.pdf"
     },
     {
+      "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5413a5.htm",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5413a5.htm"
+    },
+    {
       "url": "https://www.genome.gov/human-genome-project/timeline",
       "status": 200,
       "state": "reachable",
@@ -133,6 +163,12 @@
       "status": 200,
       "state": "reachable",
       "final_url": "https://www.loc.gov/exhibits/exploring-the-early-americas/columbus-and-the-taino.html"
+    },
+    {
+      "url": "https://www.massgeneral.org/news/press-release/massachusetts-general-hospital-marks-200-years-of-patient-care",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://news.massgeneralbrigham.org/"
     },
     {
       "url": "https://www.metmuseum.org/-/media/files/learn/for-educators/publications-for-educators/renaissance.pdf",
@@ -249,10 +285,22 @@
       "final_url": "https://www.nationalarchives.gov.uk/education/resources/indian-independence/"
     },
     {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK27126/",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.ncbi.nlm.nih.gov/books/NBK27126/"
+    },
+    {
       "url": "https://www.ndl.go.jp/portrait/e/pickup/012/",
       "status": 200,
       "state": "reachable",
       "final_url": "https://www.ndl.go.jp/portrait/e/pickup/012/"
+    },
+    {
+      "url": "https://www.nlm.nih.gov/exhibition/smallpox/sp_vaccination.html",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.nlm.nih.gov/exhibition/smallpox/sp_vaccination.html"
     },
     {
       "url": "https://www.nobelprize.org/prizes/chemistry/2020/press-release/",
@@ -265,6 +313,12 @@
       "status": 200,
       "state": "reachable",
       "final_url": "https://www.nobelprize.org/prizes/medicine/1945/fleming/questions-and-answers/"
+    },
+    {
+      "url": "https://www.nobelprize.org/prizes/medicine/2010/press-release/",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.nobelprize.org/prizes/medicine/2010/press-release/"
     },
     {
       "url": "https://www.nobelprize.org/stories/cells-nerves-genes/",
@@ -289,6 +343,12 @@
       "status": 403,
       "state": "access_blocked",
       "final_url": "https://www.si.edu/spotlight/ancient-egypt/pyramid"
+    },
+    {
+      "url": "https://www.who.int/news-room/spotlight/history-of-vaccination/a-brief-history-of-vaccination",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.who.int/news-room/spotlight/history-of-vaccination/a-brief-history-of-vaccination"
     },
     {
       "url": "https://www.who.int/news-room/spotlight/history-of-vaccination/history-of-smallpox-vaccination",
