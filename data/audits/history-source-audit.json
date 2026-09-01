@@ -1,12 +1,11 @@
 {
   "schema_version": "ai-games.history-source-audit/0.1.0",
   "verified_at": "2026-09-01",
-  "question_count": 73,
-  "unique_url_count": 66,
+  "question_count": 83,
+  "unique_url_count": 74,
   "states": {
-    "access_blocked": 28,
-    "network_error": 1,
-    "reachable": 37
+    "access_blocked": 32,
+    "reachable": 42
   },
   "records": [
     {
@@ -62,6 +61,12 @@
       "status": 200,
       "state": "reachable",
       "final_url": "https://blog.sciencemuseum.org.uk/revealing-the-real-cooke-and-wheatstone-telegraph-dial/"
+    },
+    {
+      "url": "https://blogs.loc.gov/maps/2019/09/sailing-the-early-seas-with-portolan-charts/",
+      "status": 403,
+      "state": "access_blocked",
+      "final_url": "https://blogs.loc.gov/maps/2019/09/sailing-the-early-seas-with-portolan-charts/"
     },
     {
       "url": "https://collections.louvre.fr/en/ark:/53355/cl010174436",
@@ -125,15 +130,33 @@
     },
     {
       "url": "https://resources.metmuseum.org/resources/metpublications/pdf/The_Year_One_Art_of_the_Ancient_World_East_and_West.pdf",
-      "status": null,
-      "state": "network_error",
-      "error": "TimeoutError"
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://resources.metmuseum.org/resources/metpublications/pdf/The_Year_One_Art_of_the_Ancient_World_East_and_West.pdf"
     },
     {
       "url": "https://smarthistory.org/gupta-period/",
       "status": 403,
       "state": "access_blocked",
       "final_url": "https://smarthistory.org/gupta-period/"
+    },
+    {
+      "url": "https://teara.govt.nz/en/history/page-1",
+      "status": 403,
+      "state": "access_blocked",
+      "final_url": "https://teara.govt.nz/en/history/page-1"
+    },
+    {
+      "url": "https://tile.loc.gov/storage-services/master/gdc/gdcebookspublic/20/20/71/93/50/2020719350/2020719350.pdf",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://tile.loc.gov/storage-services/master/gdc/gdcebookspublic/20/20/71/93/50/2020719350/2020719350.pdf"
+    },
+    {
+      "url": "https://tile.loc.gov/storage-services/service/gdc/gdclccn/a2/20/00/97/2/a22000972/a22000972.pdf",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://tile.loc.gov/storage-services/service/gdc/gdclccn/a2/20/00/97/2/a22000972/a22000972.pdf"
     },
     {
       "url": "https://whc.unesco.org/en/list/330",
@@ -146,6 +169,12 @@
       "status": 403,
       "state": "access_blocked",
       "final_url": "https://whc.unesco.org/en/list/364/"
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/4/",
+      "status": 403,
+      "state": "access_blocked",
+      "final_url": "https://whc.unesco.org/en/list/4/"
     },
     {
       "url": "https://whc.unesco.org/fr/listesindicatives/6460/",
@@ -380,6 +409,24 @@
       "status": 403,
       "state": "access_blocked",
       "final_url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/originsofparliament/birthofparliament/overview/magnacarta/"
+    },
+    {
+      "url": "https://www.rijksmuseum.nl/nl/collectie/object/Oost-Indievaarders-voor-de-kust--cb27a8dd65ec584d17acd8579e064ca4",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.rijksmuseum.nl/nl/collectie/object/Oost-Indievaarders-voor-de-kust--cb27a8dd65ec584d17acd8579e064ca4"
+    },
+    {
+      "url": "https://www.rmg.co.uk/collections/research-guides/research-guide-q1-exploration-discovery",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.rmg.co.uk/collections/research-guides/research-guide-q1-exploration-discovery"
+    },
+    {
+      "url": "https://www.si.edu/object/manila-galleon-william-lytle-schurz%3Asiris_sil_207127",
+      "status": 403,
+      "state": "access_blocked",
+      "final_url": "https://www.si.edu/object/manila-galleon-william-lytle-schurz%3Asiris_sil_207127"
     },
     {
       "url": "https://www.si.edu/object/siris_sil_1055918",
