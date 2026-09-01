@@ -4,7 +4,7 @@ import { dailyHistoryDeck, dailyHistoryQuestionCount, formatHistoryYear, history
 
 void test('history library begins a sourced 1,000-question curriculum', () => {
   assert.equal(historyQuestionTarget, 1000);
-  assert.equal(historyQuestions.length, 93);
+  assert.equal(historyQuestions.length, 103);
   assert.equal(new Set(historyQuestions.map((question) => question.id)).size, historyQuestions.length);
   assert.equal(new Set(historyQuestions.map((question) => question.prompt)).size, historyQuestions.length);
   assert.ok(historyQuestions.every((question) => question.year >= question.min && question.year <= question.max));
@@ -78,6 +78,19 @@ void test('history library begins a sourced 1,000-question curriculum', () => {
     'south-africa-democratic-election',
   ];
   assert.ok(rightsRevolutionAndIndependenceBatch.every((id) => historyQuestions.some((question) => question.id === id)));
+  const internationalOrderBatch = [
+    'league-of-nations-begins',
+    'un-charter-signed',
+    'udhr-adopted',
+    'korean-armistice',
+    'bandung-conference',
+    'treaties-of-rome',
+    'cuban-missile-crisis',
+    'maastricht-treaty-signed',
+    'african-union-launched',
+    'paris-agreement-adopted',
+  ];
+  assert.ok(internationalOrderBatch.every((id) => historyQuestions.some((question) => question.id === id)));
 });
 
 void test('ancient dates are shown as human BCE/CE labels', () => {

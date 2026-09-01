@@ -1,11 +1,11 @@
 {
   "schema_version": "ai-games.history-source-audit/0.1.0",
   "verified_at": "2026-09-01",
-  "question_count": 93,
-  "unique_url_count": 84,
+  "question_count": 103,
+  "unique_url_count": 94,
   "states": {
     "access_blocked": 35,
-    "reachable": 49
+    "reachable": 59
   },
   "records": [
     {
@@ -111,6 +111,12 @@
       "final_url": "https://library.olympics.com/digitalCollection/DigitalCollectionAttachmentDownloadHandler.ashx?documentId=2435425&parentDocumentId=2435424&skipCopyright=true&skipWatermark=true"
     },
     {
+      "url": "https://microsites.jfklibrary.org/cmc/",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://microsites.jfklibrary.org/cmc/"
+    },
+    {
       "url": "https://periodic-table.rsc.org/about",
       "status": 200,
       "state": "reachable",
@@ -213,10 +219,22 @@
       "final_url": "https://www.archives.gov/exhibits/eyewitness/html.php?section=1"
     },
     {
+      "url": "https://www.archives.gov/milestone-documents/armistice-agreement-restoration-south-korean-state",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.archives.gov/milestone-documents/armistice-agreement-restoration-south-korean-state"
+    },
+    {
       "url": "https://www.archives.gov/milestone-documents/declaration-of-independence",
       "status": 200,
       "state": "reachable",
       "final_url": "https://www.archives.gov/milestone-documents/declaration-of-independence"
+    },
+    {
+      "url": "https://www.au.int/en/overview",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.au.int/en/overview"
     },
     {
       "url": "https://www.britannica.com/event/Battle-of-Marathon",
@@ -241,6 +259,18 @@
       "status": 200,
       "state": "reachable",
       "final_url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5413a5.htm"
+    },
+    {
+      "url": "https://www.europarl.europa.eu/about-parliament/en/in-the-past/the-parliament-and-the-treaties/maastricht-treaty",
+      "status": 202,
+      "state": "reachable",
+      "final_url": "https://www.europarl.europa.eu/about-parliament/en/in-the-past/the-parliament-and-the-treaties/maastricht-treaty"
+    },
+    {
+      "url": "https://www.europarl.europa.eu/about-parliament/en/in-the-past/the-parliament-and-the-treaties/treaty-of-rome",
+      "status": 202,
+      "state": "reachable",
+      "final_url": "https://www.europarl.europa.eu/about-parliament/en/in-the-past/the-parliament-and-the-treaties/treaty-of-rome"
     },
     {
       "url": "https://www.genome.gov/human-genome-project/timeline",
@@ -499,6 +529,36 @@
       "status": 403,
       "state": "access_blocked",
       "final_url": "https://www.si.edu/spotlight/ancient-egypt/pyramid"
+    },
+    {
+      "url": "https://www.un.org/en/about-us/history-of-the-un/predecessor",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.un.org/en/about-us/history-of-the-un/predecessor"
+    },
+    {
+      "url": "https://www.un.org/en/about-us/un-charter",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.un.org/en/about-us/un-charter"
+    },
+    {
+      "url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights/",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights/"
+    },
+    {
+      "url": "https://www.unesco.org/en/memory-world/asian-african-conference-archives",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.unesco.org/en/memory-world/asian-african-conference-archives"
+    },
+    {
+      "url": "https://www.unfccc.int/process-and-meetings/the-paris-agreement",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.unfccc.int/process-and-meetings/the-paris-agreement"
     },
     {
       "url": "https://www.who.int/news-room/spotlight/history-of-vaccination/a-brief-history-of-vaccination",
