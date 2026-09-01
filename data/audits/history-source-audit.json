@@ -1,13 +1,20 @@
 {
   "schema_version": "ai-games.history-source-audit/0.1.0",
   "verified_at": "2026-09-01",
-  "question_count": 63,
-  "unique_url_count": 58,
+  "question_count": 73,
+  "unique_url_count": 66,
   "states": {
-    "access_blocked": 22,
-    "reachable": 36
+    "access_blocked": 28,
+    "network_error": 1,
+    "reachable": 37
   },
   "records": [
+    {
+      "url": "https://82nd-and-fifth.metmuseum.org/toah/ht/02/ssa.html",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://82nd-and-fifth.metmuseum.org/toah/ht/02/ssa.html"
+    },
     {
       "url": "https://82nd-and-fifth.metmuseum.org/toah/ht/04/cam.html",
       "status": 200,
@@ -111,16 +118,40 @@
       "final_url": "https://pubmed.ncbi.nlm.nih.gov/8587931/"
     },
     {
-      "url": "https://resources.metmuseum.org/resources/metpublications/pdf/The_Year_One_Art_of_the_Ancient_World_East_and_West.pdf",
+      "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Lost_Kingdoms_Hindu_Buddhist_Sculpture_of_Early_Southeast_Asia.pdf",
       "status": 200,
       "state": "reachable",
-      "final_url": "https://resources.metmuseum.org/resources/metpublications/pdf/The_Year_One_Art_of_the_Ancient_World_East_and_West.pdf"
+      "final_url": "https://resources.metmuseum.org/resources/metpublications/pdf/Lost_Kingdoms_Hindu_Buddhist_Sculpture_of_Early_Southeast_Asia.pdf"
+    },
+    {
+      "url": "https://resources.metmuseum.org/resources/metpublications/pdf/The_Year_One_Art_of_the_Ancient_World_East_and_West.pdf",
+      "status": null,
+      "state": "network_error",
+      "error": "TimeoutError"
     },
     {
       "url": "https://smarthistory.org/gupta-period/",
       "status": 403,
       "state": "access_blocked",
       "final_url": "https://smarthistory.org/gupta-period/"
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/330",
+      "status": 403,
+      "state": "access_blocked",
+      "final_url": "https://whc.unesco.org/en/list/330"
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/364/",
+      "status": 403,
+      "state": "access_blocked",
+      "final_url": "https://whc.unesco.org/en/list/364/"
+    },
+    {
+      "url": "https://whc.unesco.org/fr/listesindicatives/6460/",
+      "status": 403,
+      "state": "access_blocked",
+      "final_url": "https://whc.unesco.org/fr/listesindicatives/6460/"
     },
     {
       "url": "https://www.archives.gov/exhibits/eyewitness/html.php?section=1",
@@ -175,6 +206,12 @@
       "status": 429,
       "state": "access_blocked",
       "final_url": "https://www.metmuseum.org/-/media/files/learn/for-educators/publications-for-educators/renaissance.pdf"
+    },
+    {
+      "url": "https://www.metmuseum.org/de/essays/uruk-the-first-city",
+      "status": 429,
+      "state": "access_blocked",
+      "final_url": "https://www.metmuseum.org/de/essays/uruk-the-first-city"
     },
     {
       "url": "https://www.metmuseum.org/es/essays/olmec-art",
@@ -253,6 +290,12 @@
       "status": 429,
       "state": "access_blocked",
       "final_url": "https://www.metmuseum.org/met-publications/roman-art-a-resource-for-educators"
+    },
+    {
+      "url": "https://www.metmuseum.org/pt/essays/shang-and-zhou-dynasties-the-bronze-age-of-china",
+      "status": 429,
+      "state": "access_blocked",
+      "final_url": "https://www.metmuseum.org/pt/essays/shang-and-zhou-dynasties-the-bronze-age-of-china"
     },
     {
       "url": "https://www.metmuseum.org/toah/hd/crus/hd_crus.htm",
@@ -337,6 +380,12 @@
       "status": 403,
       "state": "access_blocked",
       "final_url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/originsofparliament/birthofparliament/overview/magnacarta/"
+    },
+    {
+      "url": "https://www.si.edu/object/siris_sil_1055918",
+      "status": 403,
+      "state": "access_blocked",
+      "final_url": "https://www.si.edu/object/siris_sil_1055918"
     },
     {
       "url": "https://www.si.edu/spotlight/ancient-egypt/pyramid",

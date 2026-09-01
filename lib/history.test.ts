@@ -4,7 +4,7 @@ import { dailyHistoryDeck, dailyHistoryQuestionCount, formatHistoryYear, history
 
 void test('history library begins a sourced 1,000-question curriculum', () => {
   assert.equal(historyQuestionTarget, 1000);
-  assert.equal(historyQuestions.length, 63);
+  assert.equal(historyQuestions.length, 73);
   assert.equal(new Set(historyQuestions.map((question) => question.id)).size, historyQuestions.length);
   assert.equal(new Set(historyQuestions.map((question) => question.prompt)).size, historyQuestions.length);
   assert.ok(historyQuestions.every((question) => question.year >= question.min && question.year <= question.max));
@@ -39,6 +39,19 @@ void test('history library begins a sourced 1,000-question curriculum', () => {
     'first-covid-vaccine-doses',
   ];
   assert.ok(medicineAndPublicHealthBatch.every((id) => historyQuestions.some((question) => question.id === id)));
+  const globalPremodernBatch = [
+    'uruk-first-city',
+    'mature-harappan-cities',
+    'shang-dynasty',
+    'chavin-culture',
+    'zhou-conquest',
+    'han-dynasty-begins',
+    'yijing-srivijaya',
+    'khmer-empire-802',
+    'great-zimbabwe-building',
+    'tenochtitlan-founded',
+  ];
+  assert.ok(globalPremodernBatch.every((id) => historyQuestions.some((question) => question.id === id)));
 });
 
 void test('ancient dates are shown as human BCE/CE labels', () => {
