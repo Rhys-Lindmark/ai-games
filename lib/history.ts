@@ -106,6 +106,16 @@ export function formatHistoryYear(year: number) {
   return 'BCE / CE';
 }
 
+export type HistoryEra = 'BCE' | 'CE';
+
+export function parseHistoryGuess(value: string, era: HistoryEra) {
+  const trimmed = value.trim();
+  if (!/^\d+$/.test(trimmed)) return null;
+  const year = Number(trimmed);
+  if (!Number.isSafeInteger(year) || year < 1) return null;
+  return era === 'BCE' ? -year : year;
+}
+
 function hash(value: string) {
   let result = 2166136261;
   for (const character of value) result = Math.imul(result ^ character.charCodeAt(0), 16777619);

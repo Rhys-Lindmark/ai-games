@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { dailyHistoryDeck, dailyHistoryQuestionCount, formatHistoryYear, historyLevel, historyPoints, historyQuestions, historyQuestionTarget } from './history.ts';
+import { dailyHistoryDeck, dailyHistoryQuestionCount, formatHistoryYear, historyLevel, historyPoints, historyQuestions, historyQuestionTarget, parseHistoryGuess } from './history.ts';
 
 void test('history library begins a sourced 1,000-question curriculum', () => {
   assert.equal(historyQuestionTarget, 1000);
@@ -72,6 +72,15 @@ void test('ancient dates are shown as human BCE/CE labels', () => {
   assert.equal(formatHistoryYear(-27), '27 BCE');
   assert.equal(formatHistoryYear(79), '79 CE');
   assert.equal(formatHistoryYear(0), 'BCE / CE');
+});
+
+void test('typed history guesses require a whole positive year and apply the selected era', () => {
+  assert.equal(parseHistoryGuess(' 1492 ', 'CE'), 1492);
+  assert.equal(parseHistoryGuess('776', 'BCE'), -776);
+  assert.equal(parseHistoryGuess('', 'CE'), null);
+  assert.equal(parseHistoryGuess('0', 'CE'), null);
+  assert.equal(parseHistoryGuess('-490', 'BCE'), null);
+  assert.equal(parseHistoryGuess('1868.5', 'CE'), null);
 });
 
 void test('daily round is ten stable unique questions and rotates by day', () => {
