@@ -1,11 +1,11 @@
 {
   "schema_version": "ai-games.history-source-audit/0.1.0",
   "verified_at": "2026-09-01",
-  "question_count": 103,
-  "unique_url_count": 94,
+  "question_count": 113,
+  "unique_url_count": 103,
   "states": {
     "access_blocked": 35,
-    "reachable": 59
+    "reachable": 68
   },
   "records": [
     {
@@ -237,6 +237,12 @@
       "final_url": "https://www.au.int/en/overview"
     },
     {
+      "url": "https://www.bankofengland.co.uk/about/history?level=1",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.bankofengland.co.uk/about/history?level=1"
+    },
+    {
       "url": "https://www.britannica.com/event/Battle-of-Marathon",
       "status": 403,
       "state": "access_blocked",
@@ -261,6 +267,12 @@
       "final_url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5413a5.htm"
     },
     {
+      "url": "https://www.ecb.europa.eu/euro/intro/html/index.en.html",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.ecb.europa.eu/euro/intro/html/index.en.html"
+    },
+    {
       "url": "https://www.europarl.europa.eu/about-parliament/en/in-the-past/the-parliament-and-the-treaties/maastricht-treaty",
       "status": 202,
       "state": "reachable",
@@ -273,6 +285,12 @@
       "final_url": "https://www.europarl.europa.eu/about-parliament/en/in-the-past/the-parliament-and-the-treaties/treaty-of-rome"
     },
     {
+      "url": "https://www.federalreservehistory.org/essays/gold-convertibility-ends",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.federalreservehistory.org/essays/gold-convertibility-ends"
+    },
+    {
       "url": "https://www.genome.gov/human-genome-project/timeline",
       "status": 200,
       "state": "reachable",
@@ -283,6 +301,12 @@
       "status": 200,
       "state": "reachable",
       "final_url": "https://www.gov.za/issues/20years/milestones-20-years-freedom"
+    },
+    {
+      "url": "https://www.imf.org/external/about/timeline/index.htm",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.imf.org/external/about/timeline/index.htm"
     },
     {
       "url": "https://www.loc.gov/exhibits/exploring-the-early-americas/columbus-and-the-taino.html",
@@ -483,6 +507,12 @@
       "final_url": "https://www.nobelprize.org/stories/cells-nerves-genes/"
     },
     {
+      "url": "https://www.opec.org/pr-detail/206-14-sep-2021.html",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.opec.org/pr-detail/206-14-sep-2021.html"
+    },
+    {
       "url": "https://www.parliament.uk/about/living-heritage/building/palace/estatehistory/the-middle-ages/palace-normans/",
       "status": 403,
       "state": "access_blocked",
@@ -571,6 +601,30 @@
       "status": 200,
       "state": "reachable",
       "final_url": "https://www.who.int/news-room/spotlight/history-of-vaccination/history-of-smallpox-vaccination"
+    },
+    {
+      "url": "https://www.worldbank.org/en/archive/history/exhibits/Digitized-Records-World-Bank-First-Loan",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.worldbank.org/en/archive/history/exhibits/Digitized-Records-World-Bank-First-Loan"
+    },
+    {
+      "url": "https://www.wto.org/english/thewto_e/25y_e/25ytimeline_e.htm",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.wto.org/english/thewto_e/25y_e/25ytimeline_e.htm"
+    },
+    {
+      "url": "https://www.wto.org/english/thewto_e/countries_e/china_e.htm",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.wto.org/english/thewto_e/countries_e/china_e.htm"
+    },
+    {
+      "url": "https://www.wto.org/english/thewto_e/whatis_e/tif_e/fact4_e.htm",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.wto.org/english/thewto_e/whatis_e/tif_e/fact4_e.htm"
     }
   ]
 }

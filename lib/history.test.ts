@@ -4,7 +4,7 @@ import { dailyHistoryDeck, dailyHistoryQuestionCount, formatHistoryYear, history
 
 void test('history library begins a sourced 1,000-question curriculum', () => {
   assert.equal(historyQuestionTarget, 1000);
-  assert.equal(historyQuestions.length, 103);
+  assert.equal(historyQuestions.length, 113);
   assert.equal(new Set(historyQuestions.map((question) => question.id)).size, historyQuestions.length);
   assert.equal(new Set(historyQuestions.map((question) => question.prompt)).size, historyQuestions.length);
   assert.ok(historyQuestions.every((question) => question.year >= question.min && question.year <= question.max));
@@ -91,6 +91,19 @@ void test('history library begins a sourced 1,000-question curriculum', () => {
     'paris-agreement-adopted',
   ];
   assert.ok(internationalOrderBatch.every((id) => historyQuestions.some((question) => question.id === id)));
+  const globalEconomyBatch = [
+    'bank-of-england-founded',
+    'bretton-woods-conference',
+    'imf-begins-operations',
+    'world-bank-first-loan',
+    'gatt-signed',
+    'opec-founded',
+    'us-gold-window-closed',
+    'wto-begins',
+    'euro-launched',
+    'china-joins-wto',
+  ];
+  assert.ok(globalEconomyBatch.every((id) => historyQuestions.some((question) => question.id === id)));
 });
 
 void test('ancient dates are shown as human BCE/CE labels', () => {
