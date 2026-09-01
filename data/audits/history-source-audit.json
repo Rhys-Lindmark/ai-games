@@ -1,12 +1,12 @@
 {
   "schema_version": "ai-games.history-source-audit/0.1.0",
   "verified_at": "2026-09-01",
-  "question_count": 153,
-  "unique_url_count": 139,
+  "question_count": 163,
+  "unique_url_count": 148,
   "states": {
-    "access_blocked": 51,
+    "access_blocked": 55,
     "network_error": 1,
-    "reachable": 87
+    "reachable": 92
   },
   "records": [
     {
@@ -56,6 +56,18 @@
       "status": 200,
       "state": "reachable",
       "final_url": "https://82nd-and-fifth.metmuseum.org/toah/ht/06/nc.html"
+    },
+    {
+      "url": "https://82nd-and-fifth.metmuseum.org/toah/ht/07/sse.html",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://82nd-and-fifth.metmuseum.org/toah/ht/07/sse.html"
+    },
+    {
+      "url": "https://82nd-and-fifth.metmuseum.org/toah/ht/07/wam.html",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://82nd-and-fifth.metmuseum.org/toah/ht/07/wam.html"
     },
     {
       "url": "https://airandspace.si.edu/collection-objects/1903-wright-flyer/nasm_A19610048000",
@@ -142,6 +154,12 @@
       "final_url": "https://home.nps.gov/articles/chaco.htm"
     },
     {
+      "url": "https://idp.bl.uk/discover/learning/buddhism-on-the-silk-roads/articles/buddhism-on-the-ground/buddhist-texts-the-diamond-sutra/",
+      "status": 403,
+      "state": "access_blocked",
+      "final_url": "https://idp.bl.uk/discover/learning/buddhism-on-the-silk-roads/articles/buddhism-on-the-ground/buddhist-texts-the-diamond-sutra/"
+    },
+    {
       "url": "https://library.olympics.com/digitalCollection/DigitalCollectionAttachmentDownloadHandler.ashx?documentId=2435425&parentDocumentId=2435424&skipCopyright=true&skipWatermark=true",
       "status": 200,
       "state": "reachable",
@@ -172,6 +190,12 @@
       "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4200566/"
     },
     {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6589673/",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6589673/"
+    },
+    {
       "url": "https://pubmed.ncbi.nlm.nih.gov/17195627/",
       "status": 203,
       "state": "reachable",
@@ -190,10 +214,22 @@
       "final_url": "https://researchbriefings.files.parliament.uk/documents/LLN-2019-0104/LLN-2019-0104.pdf"
     },
     {
+      "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Age_of_Spirituality_A_Symposium.pdf",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://resources.metmuseum.org/resources/metpublications/pdf/Age_of_Spirituality_A_Symposium.pdf"
+    },
+    {
       "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Assyria_to_Iberia_Art_and_Culture_in_the_Iron_Age.pdf",
       "status": 200,
       "state": "reachable",
       "final_url": "https://resources.metmuseum.org/resources/metpublications/pdf/Assyria_to_Iberia_Art_and_Culture_in_the_Iron_Age.pdf"
+    },
+    {
+      "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Japanese_Art_from_the_Gerry_Collection_in_The_Metropolitan_Museum_of_Art.pdf",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://resources.metmuseum.org/resources/metpublications/pdf/Japanese_Art_from_the_Gerry_Collection_in_The_Metropolitan_Museum_of_Art.pdf"
     },
     {
       "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Lost_Kingdoms_Hindu_Buddhist_Sculpture_of_Early_Southeast_Asia.pdf",
@@ -490,6 +526,12 @@
       "final_url": "https://www.metmuseum.org/TOAH/hd/hand/hd_hand.htm"
     },
     {
+      "url": "https://www.metmuseum.org/de/essays/hagia-sophia-532-37",
+      "status": 429,
+      "state": "access_blocked",
+      "final_url": "https://www.metmuseum.org/de/essays/hagia-sophia-532-37"
+    },
+    {
       "url": "https://www.metmuseum.org/de/essays/the-akkadian-period-ca-2350-2150-b-c",
       "status": 429,
       "state": "access_blocked",
@@ -512,6 +554,12 @@
       "status": 429,
       "state": "access_blocked",
       "final_url": "https://www.metmuseum.org/de/essays/uruk-the-first-city"
+    },
+    {
+      "url": "https://www.metmuseum.org/de/exhibitions/sahel-art-empire-sahara/inside-the-exhibition",
+      "status": 429,
+      "state": "access_blocked",
+      "final_url": "https://www.metmuseum.org/de/exhibitions/sahel-art-empire-sahara/inside-the-exhibition"
     },
     {
       "url": "https://www.metmuseum.org/es/essays/olmec-art",
@@ -584,6 +632,12 @@
       "status": 429,
       "state": "access_blocked",
       "final_url": "https://www.metmuseum.org/exhibitions/listings/2010/yuan-revolution"
+    },
+    {
+      "url": "https://www.metmuseum.org/exhibitions/listings/2012/byzantium-and-islam/blog/topical-essays/posts/sasanians",
+      "status": 429,
+      "state": "access_blocked",
+      "final_url": "https://www.metmuseum.org/exhibitions/listings/2012/byzantium-and-islam/blog/topical-essays/posts/sasanians"
     },
     {
       "url": "https://www.metmuseum.org/exhibitions/listings/2017/age-of-empires/exhibition-galleries",

@@ -4,7 +4,7 @@ import { dailyHistoryDeck, dailyHistoryQuestionCount, formatHistoryYear, history
 
 void test('history library begins a sourced 1,000-question curriculum', () => {
   assert.equal(historyQuestionTarget, 1000);
-  assert.equal(historyQuestions.length, 153);
+  assert.equal(historyQuestions.length, 163);
   assert.equal(new Set(historyQuestions.map((question) => question.id)).size, historyQuestions.length);
   assert.equal(new Set(historyQuestions.map((question) => question.prompt)).size, historyQuestions.length);
   assert.ok(historyQuestions.every((question) => question.year >= question.min && question.year <= question.max));
@@ -156,6 +156,19 @@ void test('history library begins a sourced 1,000-question curriculum', () => {
     'second-temple-destroyed',
   ];
   assert.ok(ancientAnchorBatch.every((id) => historyQuestions.some((question) => question.id === id)));
+  const lateAntiqueAndMedievalAnchorBatch = [
+    'council-of-chalcedon',
+    'hagia-sophia-inaugurated',
+    'justinianic-plague-begins',
+    'buddhism-recorded-japan',
+    'sasanian-empire-ends',
+    'diamond-sutra-printed',
+    'chola-raids-srivijaya',
+    'great-schism-1054',
+    'mongols-sack-baghdad',
+    'mansa-musa-hajj',
+  ];
+  assert.ok(lateAntiqueAndMedievalAnchorBatch.every((id) => historyQuestions.some((question) => question.id === id)));
 });
 
 void test('ancient dates are shown as human BCE/CE labels', () => {
