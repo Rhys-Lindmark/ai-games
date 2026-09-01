@@ -1,12 +1,12 @@
 {
   "schema_version": "ai-games.history-source-audit/0.1.0",
   "verified_at": "2026-09-01",
-  "question_count": 183,
-  "unique_url_count": 166,
+  "question_count": 193,
+  "unique_url_count": 175,
   "states": {
-    "access_blocked": 59,
-    "network_error": 1,
-    "reachable": 106
+    "access_blocked": 71,
+    "network_error": 5,
+    "reachable": 99
   },
   "records": [
     {
@@ -130,6 +130,12 @@
       "final_url": "https://blogs.loc.gov/maps/2019/09/sailing-the-early-seas-with-portolan-charts/"
     },
     {
+      "url": "https://collection.sciencemuseumgroup.org.uk/objects/co50887/drawing-of-thomas-newcomens-pumping-engine-1712-drawing",
+      "status": 403,
+      "state": "access_blocked",
+      "final_url": "https://collection.sciencemuseumgroup.org.uk/objects/co50887/drawing-of-thomas-newcomens-pumping-engine-1712-drawing"
+    },
+    {
       "url": "https://collections.louvre.fr/en/ark:/53355/cl010174436",
       "status": 200,
       "state": "reachable",
@@ -196,6 +202,12 @@
       "final_url": "https://idp.bl.uk/discover/learning/buddhism-on-the-silk-roads/articles/buddhism-on-the-ground/buddhist-texts-the-diamond-sutra/"
     },
     {
+      "url": "https://learninglab.si.edu/collections/onesimus-and-the-1721-smallpox-outbreak-in-boston/Ya3HENakRPRLW37a",
+      "status": 403,
+      "state": "access_blocked",
+      "final_url": "https://learninglab.si.edu/collections/onesimus-and-the-1721-smallpox-outbreak-in-boston/Ya3HENakRPRLW37a"
+    },
+    {
       "url": "https://library.olympics.com/digitalCollection/DigitalCollectionAttachmentDownloadHandler.ashx?documentId=2435425&parentDocumentId=2435424&skipCopyright=true&skipWatermark=true",
       "status": 200,
       "state": "reachable",
@@ -251,7 +263,7 @@
     },
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/17195627/",
-      "status": 203,
+      "status": 200,
       "state": "reachable",
       "final_url": "https://pubmed.ncbi.nlm.nih.gov/17195627/"
     },
@@ -275,9 +287,9 @@
     },
     {
       "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Assyria_to_Iberia_Art_and_Culture_in_the_Iron_Age.pdf",
-      "status": 200,
-      "state": "reachable",
-      "final_url": "https://resources.metmuseum.org/resources/metpublications/pdf/Assyria_to_Iberia_Art_and_Culture_in_the_Iron_Age.pdf"
+      "status": null,
+      "state": "network_error",
+      "error": "TimeoutError"
     },
     {
       "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Japanese_Art_from_the_Gerry_Collection_in_The_Metropolitan_Museum_of_Art.pdf",
@@ -290,6 +302,12 @@
       "status": 200,
       "state": "reachable",
       "final_url": "https://resources.metmuseum.org/resources/metpublications/pdf/Lost_Kingdoms_Hindu_Buddhist_Sculpture_of_Early_Southeast_Asia.pdf"
+    },
+    {
+      "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf",
+      "status": null,
+      "state": "network_error",
+      "error": "TimeoutError"
     },
     {
       "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_of_the_Metropolitan_Museum_of_Art_2006.pdf",
@@ -305,9 +323,9 @@
     },
     {
       "url": "https://resources.metmuseum.org/resources/metpublications/pdf/The_Arts_of_Byzantium_The_Metropolitan_Museum_of_Art_Bulletin_v_58_no_4_Spring_2001.pdf",
-      "status": 200,
-      "state": "reachable",
-      "final_url": "https://resources.metmuseum.org/resources/metpublications/pdf/The_Arts_of_Byzantium_The_Metropolitan_Museum_of_Art_Bulletin_v_58_no_4_Spring_2001.pdf"
+      "status": null,
+      "state": "network_error",
+      "error": "TimeoutError"
     },
     {
       "url": "https://resources.metmuseum.org/resources/metpublications/pdf/The_World_between_Empires_Art_and_Identity_in_the_Ancient_Middle_East.pdf",
@@ -317,9 +335,9 @@
     },
     {
       "url": "https://resources.metmuseum.org/resources/metpublications/pdf/The_Year_One_Art_of_the_Ancient_World_East_and_West.pdf",
-      "status": 200,
-      "state": "reachable",
-      "final_url": "https://resources.metmuseum.org/resources/metpublications/pdf/The_Year_One_Art_of_the_Ancient_World_East_and_West.pdf"
+      "status": null,
+      "state": "network_error",
+      "error": "TimeoutError"
     },
     {
       "url": "https://royalsociety.org/news/2014/astronaut-tim-peake-principia/",
@@ -407,38 +425,38 @@
     },
     {
       "url": "https://whc.unesco.org/en/list/364/",
-      "status": 200,
-      "state": "reachable",
+      "status": 403,
+      "state": "access_blocked",
       "final_url": "https://whc.unesco.org/en/list/364/"
     },
     {
       "url": "https://whc.unesco.org/en/list/4/",
-      "status": 200,
-      "state": "reachable",
+      "status": 403,
+      "state": "access_blocked",
       "final_url": "https://whc.unesco.org/en/list/4/"
     },
     {
       "url": "https://whc.unesco.org/en/list/483/",
-      "status": 200,
-      "state": "reachable",
+      "status": 403,
+      "state": "access_blocked",
       "final_url": "https://whc.unesco.org/en/list/483/"
     },
     {
       "url": "https://whc.unesco.org/en/list/89",
-      "status": 200,
-      "state": "reachable",
+      "status": 403,
+      "state": "access_blocked",
       "final_url": "https://whc.unesco.org/en/list/89"
     },
     {
       "url": "https://whc.unesco.org/en/tentativelists/6263/",
-      "status": 200,
-      "state": "reachable",
+      "status": 403,
+      "state": "access_blocked",
       "final_url": "https://whc.unesco.org/en/tentativelists/6263/"
     },
     {
       "url": "https://whc.unesco.org/fr/listesindicatives/6460/",
-      "status": 200,
-      "state": "reachable",
+      "status": 403,
+      "state": "access_blocked",
       "final_url": "https://whc.unesco.org/fr/listesindicatives/6460/"
     },
     {
@@ -452,6 +470,12 @@
       "status": 200,
       "state": "reachable",
       "final_url": "https://www.archives.gov/milestone-documents/armistice-agreement-restoration-south-korean-state"
+    },
+    {
+      "url": "https://www.archives.gov/milestone-documents/constitution",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.archives.gov/milestone-documents/constitution"
     },
     {
       "url": "https://www.archives.gov/milestone-documents/declaration-of-independence",
@@ -488,6 +512,12 @@
       "status": 403,
       "state": "access_blocked",
       "final_url": "https://www.britannica.com/technology/spinning-jenny"
+    },
+    {
+      "url": "https://www.britishmuseum.org/collection/egypt/explore-rosetta-stone",
+      "status": 403,
+      "state": "access_blocked",
+      "final_url": "https://www.britishmuseum.org/collection/egypt/explore-rosetta-stone"
     },
     {
       "url": "https://www.britishmuseum.org/sites/default/files/2019-12/Large%20print%20guide_Troy.pdf",
@@ -742,10 +772,22 @@
       "final_url": "https://www.metmuseum.org/exhibitions/listings/2012/byzantium-and-islam/blog/topical-essays/posts/sasanians"
     },
     {
+      "url": "https://www.metmuseum.org/exhibitions/listings/2013/interwoven-globe",
+      "status": 429,
+      "state": "access_blocked",
+      "final_url": "https://www.metmuseum.org/exhibitions/listings/2013/interwoven-globe"
+    },
+    {
       "url": "https://www.metmuseum.org/exhibitions/listings/2017/age-of-empires/exhibition-galleries",
       "status": 429,
       "state": "access_blocked",
       "final_url": "https://www.metmuseum.org/exhibitions/listings/2017/age-of-empires/exhibition-galleries"
+    },
+    {
+      "url": "https://www.metmuseum.org/fr/essays/art-of-the-asante-kingdom",
+      "status": 429,
+      "state": "access_blocked",
+      "final_url": "https://www.metmuseum.org/fr/essays/art-of-the-asante-kingdom"
     },
     {
       "url": "https://www.metmuseum.org/fr/essays/monumental-architecture-and-stelae-of-the-aksumite-empire",
@@ -814,6 +856,12 @@
       "final_url": "https://www.metmuseum.org/toah/ht/05/eust.html"
     },
     {
+      "url": "https://www.nam.ac.uk/explore/seven-years-war",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.nam.ac.uk/explore/seven-years-war"
+    },
+    {
       "url": "https://www.nasa.gov/history/dawn-of-the-space-age/",
       "status": 200,
       "state": "reachable",
@@ -854,6 +902,12 @@
       "status": 200,
       "state": "reachable",
       "final_url": "https://www.nlm.nih.gov/exhibition/smallpox/sp_vaccination.html"
+    },
+    {
+      "url": "https://www.nma.gov.au/defining-moments/resources/convict-cargo",
+      "status": 403,
+      "state": "access_blocked",
+      "final_url": "https://www.nma.gov.au/defining-moments/resources/convict-cargo"
     },
     {
       "url": "https://www.nobelprize.org/prizes/chemistry/2020/press-release/",

@@ -4,7 +4,7 @@ import { dailyHistoryDeck, dailyHistoryQuestionCount, formatHistoryYear, history
 
 void test('history library begins a sourced 1,000-question curriculum', () => {
   assert.equal(historyQuestionTarget, 1000);
-  assert.equal(historyQuestions.length, 183);
+  assert.equal(historyQuestions.length, 193);
   assert.equal(new Set(historyQuestions.map((question) => question.id)).size, historyQuestions.length);
   assert.equal(new Set(historyQuestions.map((question) => question.prompt)).size, historyQuestions.length);
   assert.ok(historyQuestions.every((question) => question.year >= question.min && question.year <= question.max));
@@ -196,6 +196,20 @@ void test('history library begins a sourced 1,000-question curriculum', () => {
   ];
   assert.ok(seventeenthCenturyBatch.every((id) => historyQuestions.some((question) => question.id === id)));
   assert.equal(historyQuestions.filter((question) => question.year >= 1600 && question.year < 1700).length, 15);
+  const eighteenthCenturyBatch = [
+    'asante-kingdom-forms',
+    'newcomen-atmospheric-engine',
+    'boston-smallpox-variolation',
+    'nadir-shah-sacks-delhi',
+    'seven-years-war-begins',
+    'battle-of-plassey',
+    'us-constitution-signed',
+    'first-fleet-sydney-cove',
+    'macartney-embassy-china',
+    'rosetta-stone-rediscovered',
+  ];
+  assert.ok(eighteenthCenturyBatch.every((id) => historyQuestions.some((question) => question.id === id)));
+  assert.equal(historyQuestions.filter((question) => question.year >= 1700 && question.year < 1800).length, 17);
 });
 
 void test('ancient dates are shown as human BCE/CE labels', () => {
