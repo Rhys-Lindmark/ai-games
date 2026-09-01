@@ -1,12 +1,12 @@
 {
   "schema_version": "ai-games.history-source-audit/0.1.0",
   "verified_at": "2026-09-01",
-  "question_count": 193,
-  "unique_url_count": 175,
+  "question_count": 203,
+  "unique_url_count": 184,
   "states": {
     "access_blocked": 71,
-    "network_error": 5,
-    "reachable": 99
+    "network_error": 1,
+    "reachable": 112
   },
   "records": [
     {
@@ -14,6 +14,12 @@
       "status": 200,
       "state": "reachable",
       "final_url": "https://82nd-and-fifth.metmuseum.org/toah/ht/02/ssa.html"
+    },
+    {
+      "url": "https://82nd-and-fifth.metmuseum.org/toah/ht/03/wae.html",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://82nd-and-fifth.metmuseum.org/toah/ht/03/wae.html"
     },
     {
       "url": "https://82nd-and-fifth.metmuseum.org/toah/ht/04/cam.html",
@@ -263,7 +269,7 @@
     },
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/17195627/",
-      "status": 200,
+      "status": 203,
       "state": "reachable",
       "final_url": "https://pubmed.ncbi.nlm.nih.gov/17195627/"
     },
@@ -287,9 +293,15 @@
     },
     {
       "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Assyria_to_Iberia_Art_and_Culture_in_the_Iron_Age.pdf",
-      "status": null,
-      "state": "network_error",
-      "error": "TimeoutError"
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://resources.metmuseum.org/resources/metpublications/pdf/Assyria_to_Iberia_Art_and_Culture_in_the_Iron_Age.pdf"
+    },
+    {
+      "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Greek_Art_From_Prehistoric_to_Classical.pdf",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://resources.metmuseum.org/resources/metpublications/pdf/Greek_Art_From_Prehistoric_to_Classical.pdf"
     },
     {
       "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Japanese_Art_from_the_Gerry_Collection_in_The_Metropolitan_Museum_of_Art.pdf",
@@ -305,9 +317,9 @@
     },
     {
       "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf",
-      "status": null,
-      "state": "network_error",
-      "error": "TimeoutError"
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf"
     },
     {
       "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_of_the_Metropolitan_Museum_of_Art_2006.pdf",
@@ -322,10 +334,16 @@
       "final_url": "https://resources.metmuseum.org/resources/metpublications/pdf/North_of_the_Apennines_Sixteenth_Century_Italian_Painting_in_Venice_and_the_Veneto_The_Metropolitan_Museum_of_Art_Bulletin_v_63_no_1_Summer_2005.pdf"
     },
     {
+      "url": "https://resources.metmuseum.org/resources/metpublications/pdf/The_Art_of_Ancient_Egypt_A_Resource_for_Educators.pdf",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://resources.metmuseum.org/resources/metpublications/pdf/The_Art_of_Ancient_Egypt_A_Resource_for_Educators.pdf"
+    },
+    {
       "url": "https://resources.metmuseum.org/resources/metpublications/pdf/The_Arts_of_Byzantium_The_Metropolitan_Museum_of_Art_Bulletin_v_58_no_4_Spring_2001.pdf",
-      "status": null,
-      "state": "network_error",
-      "error": "TimeoutError"
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://resources.metmuseum.org/resources/metpublications/pdf/The_Arts_of_Byzantium_The_Metropolitan_Museum_of_Art_Bulletin_v_58_no_4_Spring_2001.pdf"
     },
     {
       "url": "https://resources.metmuseum.org/resources/metpublications/pdf/The_World_between_Empires_Art_and_Identity_in_the_Ancient_Middle_East.pdf",
@@ -335,9 +353,9 @@
     },
     {
       "url": "https://resources.metmuseum.org/resources/metpublications/pdf/The_Year_One_Art_of_the_Ancient_World_East_and_West.pdf",
-      "status": null,
-      "state": "network_error",
-      "error": "TimeoutError"
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://resources.metmuseum.org/resources/metpublications/pdf/The_Year_One_Art_of_the_Ancient_World_East_and_West.pdf"
     },
     {
       "url": "https://royalsociety.org/news/2014/astronaut-tim-peake-principia/",
@@ -425,38 +443,38 @@
     },
     {
       "url": "https://whc.unesco.org/en/list/364/",
-      "status": 403,
-      "state": "access_blocked",
+      "status": 200,
+      "state": "reachable",
       "final_url": "https://whc.unesco.org/en/list/364/"
     },
     {
       "url": "https://whc.unesco.org/en/list/4/",
-      "status": 403,
-      "state": "access_blocked",
+      "status": 200,
+      "state": "reachable",
       "final_url": "https://whc.unesco.org/en/list/4/"
     },
     {
       "url": "https://whc.unesco.org/en/list/483/",
-      "status": 403,
-      "state": "access_blocked",
+      "status": 200,
+      "state": "reachable",
       "final_url": "https://whc.unesco.org/en/list/483/"
     },
     {
       "url": "https://whc.unesco.org/en/list/89",
-      "status": 403,
-      "state": "access_blocked",
+      "status": 200,
+      "state": "reachable",
       "final_url": "https://whc.unesco.org/en/list/89"
     },
     {
       "url": "https://whc.unesco.org/en/tentativelists/6263/",
-      "status": 403,
-      "state": "access_blocked",
+      "status": 200,
+      "state": "reachable",
       "final_url": "https://whc.unesco.org/en/tentativelists/6263/"
     },
     {
       "url": "https://whc.unesco.org/fr/listesindicatives/6460/",
-      "status": 403,
-      "state": "access_blocked",
+      "status": 200,
+      "state": "reachable",
       "final_url": "https://whc.unesco.org/fr/listesindicatives/6460/"
     },
     {
@@ -694,6 +712,12 @@
       "final_url": "https://www.metmuseum.org/de/exhibitions/sahel-art-empire-sahara/inside-the-exhibition"
     },
     {
+      "url": "https://www.metmuseum.org/de/exhibitions/tree-and-serpent/visiting-guide",
+      "status": 429,
+      "state": "access_blocked",
+      "final_url": "https://www.metmuseum.org/de/exhibitions/tree-and-serpent/visiting-guide"
+    },
+    {
       "url": "https://www.metmuseum.org/es/essays/olmec-art",
       "status": 429,
       "state": "access_blocked",
@@ -778,6 +802,12 @@
       "final_url": "https://www.metmuseum.org/exhibitions/listings/2013/interwoven-globe"
     },
     {
+      "url": "https://www.metmuseum.org/exhibitions/listings/2014/assyria-to-iberia/blog/posts/sennacherib-and-jerusalem",
+      "status": 429,
+      "state": "access_blocked",
+      "final_url": "https://www.metmuseum.org/exhibitions/listings/2014/assyria-to-iberia/blog/posts/sennacherib-and-jerusalem"
+    },
+    {
       "url": "https://www.metmuseum.org/exhibitions/listings/2017/age-of-empires/exhibition-galleries",
       "status": 429,
       "state": "access_blocked",
@@ -796,6 +826,12 @@
       "final_url": "https://www.metmuseum.org/fr/essays/monumental-architecture-and-stelae-of-the-aksumite-empire"
     },
     {
+      "url": "https://www.metmuseum.org/it/essays/minoan-crete",
+      "status": 429,
+      "state": "access_blocked",
+      "final_url": "https://www.metmuseum.org/it/essays/minoan-crete"
+    },
+    {
       "url": "https://www.metmuseum.org/ja/essays/foundations-of-aksumite-civilization-and-its-christian-legacy-1st-7th-century",
       "status": 429,
       "state": "access_blocked",
@@ -808,10 +844,22 @@
       "final_url": "https://www.metmuseum.org/ja/essays/the-achaemenid-persian-empire-550-330-b-c"
     },
     {
+      "url": "https://www.metmuseum.org/ja/essays/the-rise-of-macedonia-and-the-conquests-of-alexander-the-great",
+      "status": 429,
+      "state": "access_blocked",
+      "final_url": "https://www.metmuseum.org/ja/essays/the-rise-of-macedonia-and-the-conquests-of-alexander-the-great"
+    },
+    {
       "url": "https://www.metmuseum.org/ja/essays/the-sasanian-empire-224-651-a-d",
       "status": 429,
       "state": "access_blocked",
       "final_url": "https://www.metmuseum.org/ja/essays/the-sasanian-empire-224-651-a-d"
+    },
+    {
+      "url": "https://www.metmuseum.org/ja/exhibitions/arts-of-africa/inside-the-exhibition",
+      "status": 429,
+      "state": "access_blocked",
+      "final_url": "https://www.metmuseum.org/ja/exhibitions/arts-of-africa/inside-the-exhibition"
     },
     {
       "url": "https://www.metmuseum.org/ko/essays/northern-song-dynasty-960-1127",
@@ -830,6 +878,12 @@
       "status": 429,
       "state": "access_blocked",
       "final_url": "https://www.metmuseum.org/met-publications/roman-art-a-resource-for-educators"
+    },
+    {
+      "url": "https://www.metmuseum.org/pt/essays/lapita-pottery-ca-1500-500-b-c",
+      "status": 429,
+      "state": "access_blocked",
+      "final_url": "https://www.metmuseum.org/pt/essays/lapita-pottery-ca-1500-500-b-c"
     },
     {
       "url": "https://www.metmuseum.org/pt/essays/shang-and-zhou-dynasties-the-bronze-age-of-china",
