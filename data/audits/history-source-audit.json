@@ -1,12 +1,12 @@
 {
   "schema_version": "ai-games.history-source-audit/0.1.0",
   "verified_at": "2026-09-01",
-  "question_count": 143,
-  "unique_url_count": 131,
+  "question_count": 153,
+  "unique_url_count": 139,
   "states": {
-    "access_blocked": 44,
+    "access_blocked": 51,
     "network_error": 1,
-    "reachable": 86
+    "reachable": 87
   },
   "records": [
     {
@@ -190,6 +190,12 @@
       "final_url": "https://researchbriefings.files.parliament.uk/documents/LLN-2019-0104/LLN-2019-0104.pdf"
     },
     {
+      "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Assyria_to_Iberia_Art_and_Culture_in_the_Iron_Age.pdf",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://resources.metmuseum.org/resources/metpublications/pdf/Assyria_to_Iberia_Art_and_Culture_in_the_Iron_Age.pdf"
+    },
+    {
       "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Lost_Kingdoms_Hindu_Buddhist_Sculpture_of_Early_Southeast_Asia.pdf",
       "status": 200,
       "state": "reachable",
@@ -206,6 +212,12 @@
       "status": 200,
       "state": "reachable",
       "final_url": "https://resources.metmuseum.org/resources/metpublications/pdf/The_Arts_of_Byzantium_The_Metropolitan_Museum_of_Art_Bulletin_v_58_no_4_Spring_2001.pdf"
+    },
+    {
+      "url": "https://resources.metmuseum.org/resources/metpublications/pdf/The_World_between_Empires_Art_and_Identity_in_the_Ancient_Middle_East.pdf",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://resources.metmuseum.org/resources/metpublications/pdf/The_World_between_Empires_Art_and_Identity_in_the_Ancient_Middle_East.pdf"
     },
     {
       "url": "https://resources.metmuseum.org/resources/metpublications/pdf/The_Year_One_Art_of_the_Ancient_World_East_and_West.pdf",
@@ -263,26 +275,26 @@
     },
     {
       "url": "https://whc.unesco.org/en/activities/160/",
-      "status": 200,
-      "state": "reachable",
+      "status": 403,
+      "state": "access_blocked",
       "final_url": "https://whc.unesco.org/en/activities/160/"
     },
     {
       "url": "https://whc.unesco.org/en/list/1336/",
-      "status": 200,
-      "state": "reachable",
+      "status": 403,
+      "state": "access_blocked",
       "final_url": "https://whc.unesco.org/en/list/1336/"
     },
     {
       "url": "https://whc.unesco.org/en/list/330",
-      "status": 200,
-      "state": "reachable",
+      "status": 403,
+      "state": "access_blocked",
       "final_url": "https://whc.unesco.org/en/list/330"
     },
     {
       "url": "https://whc.unesco.org/en/list/364/",
-      "status": 200,
-      "state": "reachable",
+      "status": 403,
+      "state": "access_blocked",
       "final_url": "https://whc.unesco.org/en/list/364/"
     },
     {
@@ -299,14 +311,14 @@
     },
     {
       "url": "https://whc.unesco.org/en/list/89",
-      "status": 403,
-      "state": "access_blocked",
+      "status": 200,
+      "state": "reachable",
       "final_url": "https://whc.unesco.org/en/list/89"
     },
     {
       "url": "https://whc.unesco.org/fr/listesindicatives/6460/",
-      "status": 403,
-      "state": "access_blocked",
+      "status": 200,
+      "state": "reachable",
       "final_url": "https://whc.unesco.org/fr/listesindicatives/6460/"
     },
     {
@@ -346,16 +358,34 @@
       "final_url": "https://www.britannica.com/event/Battle-of-Marathon"
     },
     {
+      "url": "https://www.britannica.com/event/Battle-of-the-Teutoburg-Forest",
+      "status": 403,
+      "state": "access_blocked",
+      "final_url": "https://www.britannica.com/event/Battle-of-the-Teutoburg-Forest"
+    },
+    {
       "url": "https://www.britannica.com/technology/spinning-jenny",
       "status": 403,
       "state": "access_blocked",
       "final_url": "https://www.britannica.com/technology/spinning-jenny"
     },
     {
+      "url": "https://www.britishmuseum.org/sites/default/files/2019-12/Large%20print%20guide_Troy.pdf",
+      "status": 403,
+      "state": "access_blocked",
+      "final_url": "https://www.britishmuseum.org/sites/default/files/2019-12/Large%20print%20guide_Troy.pdf"
+    },
+    {
       "url": "https://www.bundestag.de/resource/blob/480634/exhibition_dome.pdf",
       "status": 200,
       "state": "reachable",
       "final_url": "https://www.bundestag.de/resource/blob/480634/exhibition_dome.pdf"
+    },
+    {
+      "url": "https://www.cambridge.org/core/journals/new-testament-studies/article/dating-the-death-of-jesus-memory-and-the-religious-imagination/0458FC0CA55BEF810BCC411AC2765860",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://www.cambridge.org/core/journals/new-testament-studies/article/dating-the-death-of-jesus-memory-and-the-religious-imagination/0458FC0CA55BEF810BCC411AC2765860"
     },
     {
       "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5413a5.htm",
@@ -460,10 +490,22 @@
       "final_url": "https://www.metmuseum.org/TOAH/hd/hand/hd_hand.htm"
     },
     {
+      "url": "https://www.metmuseum.org/de/essays/the-akkadian-period-ca-2350-2150-b-c",
+      "status": 429,
+      "state": "access_blocked",
+      "final_url": "https://www.metmuseum.org/de/essays/the-akkadian-period-ca-2350-2150-b-c"
+    },
+    {
       "url": "https://www.metmuseum.org/de/essays/the-art-of-the-umayyad-period-in-spain-711-1031",
       "status": 429,
       "state": "access_blocked",
       "final_url": "https://www.metmuseum.org/de/essays/the-art-of-the-umayyad-period-in-spain-711-1031"
+    },
+    {
+      "url": "https://www.metmuseum.org/de/essays/the-roman-republic",
+      "status": 429,
+      "state": "access_blocked",
+      "final_url": "https://www.metmuseum.org/de/essays/the-roman-republic"
     },
     {
       "url": "https://www.metmuseum.org/de/essays/uruk-the-first-city",
@@ -476,6 +518,12 @@
       "status": 429,
       "state": "access_blocked",
       "final_url": "https://www.metmuseum.org/es/essays/olmec-art"
+    },
+    {
+      "url": "https://www.metmuseum.org/es/essays/the-origins-of-writing",
+      "status": 429,
+      "state": "access_blocked",
+      "final_url": "https://www.metmuseum.org/es/essays/the-origins-of-writing"
     },
     {
       "url": "https://www.metmuseum.org/essays/art-of-the-hellenistic-age-and-the-hellenistic-tradition",

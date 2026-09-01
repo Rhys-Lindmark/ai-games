@@ -4,12 +4,12 @@ import { dailyHistoryDeck, dailyHistoryQuestionCount, formatHistoryYear, history
 
 void test('history library begins a sourced 1,000-question curriculum', () => {
   assert.equal(historyQuestionTarget, 1000);
-  assert.equal(historyQuestions.length, 143);
+  assert.equal(historyQuestions.length, 153);
   assert.equal(new Set(historyQuestions.map((question) => question.id)).size, historyQuestions.length);
   assert.equal(new Set(historyQuestions.map((question) => question.prompt)).size, historyQuestions.length);
   assert.ok(historyQuestions.every((question) => question.year >= question.min && question.year <= question.max));
   assert.ok(historyQuestions.every((question) => Number.isInteger(question.year) && question.prompt.endsWith('?') && question.detail.length >= 80));
-  assert.ok(historyQuestions.every((question) => question.sourceUrl.startsWith('https://') && question.verifiedAt === '2026-08-31'));
+  assert.ok(historyQuestions.every((question) => question.sourceUrl.startsWith('https://') && /^\d{4}-\d{2}-\d{2}$/.test(question.verifiedAt)));
   for (const difficulty of ['core', 'survey', 'specialist']) {
     assert.ok(historyQuestions.filter((question) => question.difficulty === difficulty).length >= 5, `${difficulty} needs meaningful representation`);
   }
@@ -143,6 +143,19 @@ void test('history library begins a sourced 1,000-question curriculum', () => {
     'visigoth-sack-rome',
   ];
   assert.ok(lateAntiquityCorrectionBatch.every((id) => historyQuestions.some((question) => question.id === id)));
+  const ancientAnchorBatch = [
+    'proto-cuneiform-writing',
+    'great-pyramid-khufu',
+    'akkadian-empire-sargon',
+    'battle-of-kadesh',
+    'greek-adopts-phoenician-alphabet',
+    'ashoka-reign-begins',
+    'julius-caesar-assassinated',
+    'teutoburg-forest-battle',
+    'jesus-crucifixion',
+    'second-temple-destroyed',
+  ];
+  assert.ok(ancientAnchorBatch.every((id) => historyQuestions.some((question) => question.id === id)));
 });
 
 void test('ancient dates are shown as human BCE/CE labels', () => {
