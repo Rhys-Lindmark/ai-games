@@ -1,11 +1,12 @@
 {
   "schema_version": "ai-games.history-source-audit/0.1.0",
   "verified_at": "2026-09-01",
-  "question_count": 123,
-  "unique_url_count": 113,
+  "question_count": 133,
+  "unique_url_count": 123,
   "states": {
-    "access_blocked": 36,
-    "reachable": 77
+    "access_blocked": 43,
+    "network_error": 2,
+    "reachable": 78
   },
   "records": [
     {
@@ -33,6 +34,12 @@
       "final_url": "https://82nd-and-fifth.metmuseum.org/toah/ht/05/cam.html"
     },
     {
+      "url": "https://82nd-and-fifth.metmuseum.org/toah/ht/06/eaj.html",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://82nd-and-fifth.metmuseum.org/toah/ht/06/eaj.html"
+    },
+    {
       "url": "https://82nd-and-fifth.metmuseum.org/toah/ht/06/eak.html",
       "status": 200,
       "state": "reachable",
@@ -49,6 +56,12 @@
       "status": 200,
       "state": "reachable",
       "final_url": "https://airandspace.si.edu/collection-objects/1903-wright-flyer/nasm_A19610048000"
+    },
+    {
+      "url": "https://asia.si.edu/wp-content/uploads/2023/06/shipwrecked-04-krahl.pdf",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://asia.si.edu/wp-content/uploads/2023/06/shipwrecked-04-krahl.pdf"
     },
     {
       "url": "https://blog.railwaymuseum.org.uk/shildon-the-cradle-of-the-railways-and-locomotion-no-1/",
@@ -166,15 +179,15 @@
     },
     {
       "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_of_the_Metropolitan_Museum_of_Art_2006.pdf",
-      "status": 200,
-      "state": "reachable",
-      "final_url": "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_of_the_Metropolitan_Museum_of_Art_2006.pdf"
+      "status": null,
+      "state": "network_error",
+      "error": "TimeoutError"
     },
     {
       "url": "https://resources.metmuseum.org/resources/metpublications/pdf/The_Year_One_Art_of_the_Ancient_World_East_and_West.pdf",
-      "status": 200,
-      "state": "reachable",
-      "final_url": "https://resources.metmuseum.org/resources/metpublications/pdf/The_Year_One_Art_of_the_Ancient_World_East_and_West.pdf"
+      "status": null,
+      "state": "network_error",
+      "error": "TimeoutError"
     },
     {
       "url": "https://smarthistory.org/gupta-period/",
@@ -213,10 +226,22 @@
       "final_url": "https://tile.loc.gov/storage-services/service/gdc/gdclccn/a2/20/00/97/2/a22000972/a22000972.pdf"
     },
     {
+      "url": "https://whc.unesco.org/archive/advisory_body_evaluation/668.pdf",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://whc.unesco.org/archive/advisory_body_evaluation/668.pdf"
+    },
+    {
       "url": "https://whc.unesco.org/document/152221",
       "status": 403,
       "state": "access_blocked",
       "final_url": "https://whc.unesco.org/document/152221"
+    },
+    {
+      "url": "https://whc.unesco.org/en/activities/160/",
+      "status": 403,
+      "state": "access_blocked",
+      "final_url": "https://whc.unesco.org/en/activities/160/"
     },
     {
       "url": "https://whc.unesco.org/en/list/1336/",
@@ -226,14 +251,14 @@
     },
     {
       "url": "https://whc.unesco.org/en/list/330",
-      "status": 200,
-      "state": "reachable",
+      "status": 403,
+      "state": "access_blocked",
       "final_url": "https://whc.unesco.org/en/list/330"
     },
     {
       "url": "https://whc.unesco.org/en/list/364/",
-      "status": 200,
-      "state": "reachable",
+      "status": 403,
+      "state": "access_blocked",
       "final_url": "https://whc.unesco.org/en/list/364/"
     },
     {
@@ -241,6 +266,18 @@
       "status": 200,
       "state": "reachable",
       "final_url": "https://whc.unesco.org/en/list/4/"
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/483/",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://whc.unesco.org/en/list/483/"
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/89",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://whc.unesco.org/en/list/89"
     },
     {
       "url": "https://whc.unesco.org/fr/listesindicatives/6460/",
@@ -387,6 +424,12 @@
       "final_url": "https://www.metmuseum.org/-/media/files/learn/for-educators/publications-for-educators/renaissance.pdf"
     },
     {
+      "url": "https://www.metmuseum.org/de/essays/the-art-of-the-umayyad-period-in-spain-711-1031",
+      "status": 429,
+      "state": "access_blocked",
+      "final_url": "https://www.metmuseum.org/de/essays/the-art-of-the-umayyad-period-in-spain-711-1031"
+    },
+    {
       "url": "https://www.metmuseum.org/de/essays/uruk-the-first-city",
       "status": 429,
       "state": "access_blocked",
@@ -477,6 +520,18 @@
       "final_url": "https://www.metmuseum.org/ja/essays/the-achaemenid-persian-empire-550-330-b-c"
     },
     {
+      "url": "https://www.metmuseum.org/ko/essays/northern-song-dynasty-960-1127",
+      "status": 429,
+      "state": "access_blocked",
+      "final_url": "https://www.metmuseum.org/ko/essays/northern-song-dynasty-960-1127"
+    },
+    {
+      "url": "https://www.metmuseum.org/ko/essays/the-crusades-1095-1291",
+      "status": 429,
+      "state": "access_blocked",
+      "final_url": "https://www.metmuseum.org/ko/essays/the-crusades-1095-1291"
+    },
+    {
       "url": "https://www.metmuseum.org/met-publications/roman-art-a-resource-for-educators",
       "status": 429,
       "state": "access_blocked",
@@ -487,6 +542,12 @@
       "status": 429,
       "state": "access_blocked",
       "final_url": "https://www.metmuseum.org/pt/essays/shang-and-zhou-dynasties-the-bronze-age-of-china"
+    },
+    {
+      "url": "https://www.metmuseum.org/pt/essays/the-art-of-the-umayyad-period-in-spain-711-1031",
+      "status": 429,
+      "state": "access_blocked",
+      "final_url": "https://www.metmuseum.org/pt/essays/the-art-of-the-umayyad-period-in-spain-711-1031"
     },
     {
       "url": "https://www.metmuseum.org/toah/hd/crus/hd_crus.htm",

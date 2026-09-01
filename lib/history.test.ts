@@ -4,7 +4,7 @@ import { dailyHistoryDeck, dailyHistoryQuestionCount, formatHistoryYear, history
 
 void test('history library begins a sourced 1,000-question curriculum', () => {
   assert.equal(historyQuestionTarget, 1000);
-  assert.equal(historyQuestions.length, 123);
+  assert.equal(historyQuestions.length, 133);
   assert.equal(new Set(historyQuestions.map((question) => question.id)).size, historyQuestions.length);
   assert.equal(new Set(historyQuestions.map((question) => question.prompt)).size, historyQuestions.length);
   assert.ok(historyQuestions.every((question) => question.year >= question.min && question.year <= question.max));
@@ -117,6 +117,19 @@ void test('history library begins a sourced 1,000-question curriculum', () => {
     'chaco-great-houses',
   ];
   assert.ok(ancientEarlyMedievalBatch.every((id) => historyQuestions.some((question) => question.id === id)));
+  const lowDensityCenturiesBatch = [
+    'nara-permanent-capital',
+    'umayyad-landing-iberia',
+    'abbasid-overthrow-umayyads',
+    'an-lushan-rebellion-begins',
+    'northern-song-begins',
+    'chichen-itza-maya-toltec-phase',
+    'cairo-founded-fatimid-capital',
+    'angkor-wat-building-phase',
+    'lalibela-reign-begins',
+    'saladin-retakes-jerusalem',
+  ];
+  assert.ok(lowDensityCenturiesBatch.every((id) => historyQuestions.some((question) => question.id === id)));
 });
 
 void test('ancient dates are shown as human BCE/CE labels', () => {
