@@ -12,6 +12,7 @@
     "test:history": "node --experimental-strip-types --test lib/history.test.ts",
     "audit:history-sources": "node --experimental-strip-types scripts/audit-history-sources.mjs",
     "test:history-source-audit": "node --experimental-strip-types scripts/check-history-source-audit.mjs",
+    "test:release-build": "node --experimental-strip-types scripts/check-release-build.mjs",
     "start": "wrangler dev --config dist/server/wrangler.json",
     "lint": "oxlint",
     "format": "oxfmt"
