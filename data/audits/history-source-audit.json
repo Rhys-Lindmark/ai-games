@@ -1,12 +1,12 @@
 {
   "schema_version": "ai-games.history-source-audit/0.1.0",
   "verified_at": "2026-09-01",
-  "question_count": 163,
-  "unique_url_count": 148,
+  "question_count": 173,
+  "unique_url_count": 157,
   "states": {
-    "access_blocked": 55,
-    "network_error": 1,
-    "reachable": 92
+    "access_blocked": 58,
+    "network_error": 2,
+    "reachable": 97
   },
   "records": [
     {
@@ -68,6 +68,30 @@
       "status": 200,
       "state": "reachable",
       "final_url": "https://82nd-and-fifth.metmuseum.org/toah/ht/07/wam.html"
+    },
+    {
+      "url": "https://82nd-and-fifth.metmuseum.org/toah/ht/08/canm.html",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://82nd-and-fifth.metmuseum.org/toah/ht/08/canm.html"
+    },
+    {
+      "url": "https://82nd-and-fifth.metmuseum.org/toah/ht/08/eustn.html",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://82nd-and-fifth.metmuseum.org/toah/ht/08/eustn.html"
+    },
+    {
+      "url": "https://82nd-and-fifth.metmuseum.org/toah/ht/08/sanc.html",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://82nd-and-fifth.metmuseum.org/toah/ht/08/sanc.html"
+    },
+    {
+      "url": "https://82nd-and-fifth.metmuseum.org/toah/ht/08/ssa.html",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://82nd-and-fifth.metmuseum.org/toah/ht/08/ssa.html"
     },
     {
       "url": "https://airandspace.si.edu/collection-objects/1903-wright-flyer/nasm_A19610048000",
@@ -196,6 +220,12 @@
       "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6589673/"
     },
     {
+      "url": "https://postalmuseum.si.edu/object/npm_1984.0014.2712",
+      "status": 403,
+      "state": "access_blocked",
+      "final_url": "https://postalmuseum.si.edu/object/npm_1984.0014.2712"
+    },
+    {
       "url": "https://pubmed.ncbi.nlm.nih.gov/17195627/",
       "status": 203,
       "state": "reachable",
@@ -242,6 +272,12 @@
       "status": 200,
       "state": "reachable",
       "final_url": "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_of_the_Metropolitan_Museum_of_Art_2006.pdf"
+    },
+    {
+      "url": "https://resources.metmuseum.org/resources/metpublications/pdf/North_of_the_Apennines_Sixteenth_Century_Italian_Painting_in_Venice_and_the_Veneto_The_Metropolitan_Museum_of_Art_Bulletin_v_63_no_1_Summer_2005.pdf",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://resources.metmuseum.org/resources/metpublications/pdf/North_of_the_Apennines_Sixteenth_Century_Italian_Painting_in_Venice_and_the_Veneto_The_Metropolitan_Museum_of_Art_Bulletin_v_63_no_1_Summer_2005.pdf"
     },
     {
       "url": "https://resources.metmuseum.org/resources/metpublications/pdf/The_Arts_of_Byzantium_The_Metropolitan_Museum_of_Art_Bulletin_v_58_no_4_Spring_2001.pdf",
@@ -350,6 +386,12 @@
       "status": 200,
       "state": "reachable",
       "final_url": "https://whc.unesco.org/en/list/89"
+    },
+    {
+      "url": "https://whc.unesco.org/en/tentativelists/6263/",
+      "status": 200,
+      "state": "reachable",
+      "final_url": "https://whc.unesco.org/en/tentativelists/6263/"
     },
     {
       "url": "https://whc.unesco.org/fr/listesindicatives/6460/",
@@ -494,6 +536,18 @@
       "status": 200,
       "state": "reachable",
       "final_url": "https://www.loc.gov/exhibits/mexican-revolution-and-the-united-states/independence-from-spain.html"
+    },
+    {
+      "url": "https://www.loc.gov/item/2021667736/",
+      "status": 403,
+      "state": "access_blocked",
+      "final_url": "https://www.loc.gov/item/2021667736/"
+    },
+    {
+      "url": "https://www.loc.gov/item/92516339/",
+      "status": 403,
+      "state": "access_blocked",
+      "final_url": "https://www.loc.gov/item/92516339/"
     },
     {
       "url": "https://www.loc.gov/loc/lcib/11078/law.html",
@@ -803,9 +857,9 @@
     },
     {
       "url": "https://www.rijksmuseum.nl/nl/collectie/object/Oost-Indievaarders-voor-de-kust--cb27a8dd65ec584d17acd8579e064ca4",
-      "status": 200,
-      "state": "reachable",
-      "final_url": "https://www.rijksmuseum.nl/nl/collectie/object/Oost-Indievaarders-voor-de-kust--cb27a8dd65ec584d17acd8579e064ca4"
+      "status": null,
+      "state": "network_error",
+      "error": "TypeError"
     },
     {
       "url": "https://www.rmg.co.uk/collections/research-guides/research-guide-q1-exploration-discovery",
